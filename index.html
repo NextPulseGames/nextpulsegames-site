@@ -4,40 +4,66 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>NextPulse Games — Fun. Energy. Play.</title>
-  <meta name="description" content="NextPulse Games creates colorful, family-friendly games. Discover Wolf And Eggs 3D — free to play, no ads, optional support.">
+  <meta name="description" content="NextPulse Games is an independent one-person game project creating colorful, family-friendly games. Discover Wolf And Eggs 3D — free to play, no ads, optional support.">
   <meta name="theme-color" content="#06183f">
   <meta name="color-scheme" content="dark light">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="https://nextpulsegames.com/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="NextPulse Games">
   <meta property="og:title" content="NextPulse Games — Fun. Energy. Play.">
   <meta property="og:description" content="Free games. No ads. Made with passion. Discover Wolf And Eggs 3D and follow the next adventures from NextPulse Games.">
-  <meta property="og:image" content="https://nextpulsegames.com/assets/brand-banner.webp?v=20261012">
+  <meta property="og:image" content="https://nextpulsegames.com/assets/og-image.jpg">\n  <meta property="og:image:width" content="1200">\n  <meta property="og:image:height" content="630">\n  <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://nextpulsegames.com/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NextPulse Games — Fun. Energy. Play.">
   <meta name="twitter:description" content="Free games. No ads. Made with passion.">
-  <meta name="twitter:image" content="https://nextpulsegames.com/assets/brand-banner.webp?v=20261012">
+  <meta name="twitter:image" content="https://nextpulsegames.com/assets/og-image.jpg">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=20261012">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">\n  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">\n  <link rel="icon" type="image/png" sizes="48x48" href="assets/favicon-48.png">\n  <link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png">\n  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
-  <link rel="preload" href="assets/brand-banner.webp?v=20261012" as="image" type="image/webp">
-  <link rel="stylesheet" href="styles.css?v=20261012c">
+  <link rel="preload" href="assets/brand-banner-2048.webp" as="image" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=pro2">
 
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
-    "@type":"Organization",
-    "name":"NextPulse Games",
-    "url":"https://nextpulsegames.com/",
-    "logo":"https://nextpulsegames.com/assets/brand-logo.webp?v=20261012",
-    "sameAs":[
-      "https://x.com/NextPulseGames",
-      "https://www.youtube.com/@NextPulseGames",
-      "https://www.instagram.com/nextpulsegames/",
-      "https://www.tiktok.com/@nextpulsegames"
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"https://nextpulsegames.com/#organization",
+        "name":"NextPulse Games",
+        "url":"https://nextpulsegames.com/",
+        "logo":"https://nextpulsegames.com/assets/brand-logo.webp",
+        "sameAs":[
+          "https://x.com/NextPulseGames",
+          "https://www.youtube.com/@NextPulseGames",
+          "https://www.instagram.com/nextpulsegames/",
+          "https://www.tiktok.com/@nextpulsegames"
+        ]
+      },
+      {
+        "@type":"WebSite",
+        "@id":"https://nextpulsegames.com/#website",
+        "url":"https://nextpulsegames.com/",
+        "name":"NextPulse Games",
+        "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+        "inLanguage":["en","pl"]
+      },
+      {
+        "@type":"VideoGame",
+        "@id":"https://nextpulsegames.com/#videogame",
+        "name":"Wolf And Eggs 3D",
+        "url":"https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d",
+        "image":"https://nextpulsegames.com/assets/og-image.jpg",
+        "description":"A cheerful arcade adventure with egg catching, runner stages and 3D mini-games.",
+        "genre":["Arcade","Casual","Family"],
+        "applicationCategory":"Game",
+        "operatingSystem":"Android",
+        "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+        "offers":{"@type":"Offer","price":"0","priceCurrency":"USD","availability":"https://schema.org/InStock"}
+      }
     ]
   }
   </script>
@@ -63,12 +89,15 @@
 <main id="main">
   <section class="hero" aria-labelledby="heroTitle">
     <div class="hero-banner-wrap">
-      <img class="hero-banner" src="assets/brand-banner.webp?v=20261012" alt="NextPulse Games — Fun. Energy. Play." width="2048" height="682">
+      <picture>
+        <source srcset="assets/brand-banner-1024.webp 1024w, assets/brand-banner-2048.webp 2048w, assets/brand-banner-2560.webp 2560w" sizes="100vw" type="image/webp">
+        <img class="hero-banner" src="assets/brand-banner-2048.webp" alt="NextPulse Games — Fun. Energy. Play." width="2048" height="682" fetchpriority="high" decoding="async">
+      </picture>
       <div class="hero-glow" aria-hidden="true"></div>
     </div>
     <div class="hero-card">
       <div>
-        <span class="eyebrow" data-i18n="eyebrow">Independent game studio</span>
+        <span class="eyebrow" data-i18n="eyebrow">Independent game project</span>
         <h1 id="heroTitle" data-i18n="heroTitle">Games with energy. Built with care.</h1>
         <p data-i18n="heroText">We create colorful games designed to be fun, friendly and easy to jump into — without disruptive ads.</p>
       </div>
@@ -191,6 +220,6 @@
   </div>
   <p>© <span id="year"></span> NextPulse Games. <span data-i18n="rights">All rights reserved.</span></p>
 </footer>
-<script src="app.js?v=20261012" defer></script>
+<script src="app.js?v=pro2" defer></script>
 </body>
 </html>
