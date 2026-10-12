@@ -1,6 +1,6 @@
 const copy={
   en:{
-    navGame:"Game",navGallery:"Gallery",navStudio:"Studio",navSocial:"Follow",eyebrow:"Independent game studio",
+    navGame:"Game",navGallery:"Gallery",navStudio:"Studio",navSocial:"Follow",eyebrow:"Independent game project",
     heroTitle:"Games with energy. Built with care.",heroText:"We create colorful games designed to be fun, friendly and easy to jump into — without disruptive ads.",
     discover:"Discover Wolf And Eggs 3D",googlePlay:"Google Play",free:"Free to play",freeSub:"Start playing without a paywall",noAds:"No ads",noAdsSub:"No disruptive advertising",support:"Optional support",supportSub:"Support the creator only if you want to",feedback:"Built with feedback",feedbackSub:"The game evolves with player input",
     featured:"Featured game",gameLead:"A cheerful arcade adventure that keeps growing.",openPlay:"Open in Google Play ↗",catchTitle:"Catch. Run. Explore.",gameText:"Catch eggs, score points, take on runner stages, play 3D mini-games and discover a growing world full of lighthearted challenges.",
@@ -11,7 +11,7 @@ const copy={
     follow:"Follow NextPulse Games",socialTitle:"Join the journey",socialText:"Shorts, updates, behind-the-scenes development and new game announcements.",privacy:"Privacy Policy",rights:"All rights reserved."
   },
   pl:{
-    navGame:"Gra",navGallery:"Galeria",navStudio:"Studio",navSocial:"Obserwuj",eyebrow:"Niezależne studio gier",
+    navGame:"Gra",navGallery:"Galeria",navStudio:"Studio",navSocial:"Obserwuj",eyebrow:"Niezależny projekt gier",
     heroTitle:"Gry z energią. Tworzone z pasją.",heroText:"Tworzymy kolorowe gry, które mają dawać prostą, przyjazną zabawę — bez uciążliwych reklam.",
     discover:"Poznaj Wolf And Eggs 3D",googlePlay:"Google Play",free:"Bezpłatna gra",freeSub:"Zacznij bez paywalla",noAds:"Bez reklam",noAdsSub:"Bez przerywania rozgrywki reklamami",support:"Dobrowolne wsparcie",supportSub:"Wspierasz twórcę tylko jeśli chcesz",feedback:"Rozwój z graczami",feedbackSub:"Gra zmienia się dzięki opiniom graczy",
     featured:"Nasza gra",gameLead:"Pogodna zręcznościowa przygoda, która ciągle się rozwija.",openPlay:"Otwórz w Google Play ↗",catchTitle:"Łap. Biegnij. Odkrywaj.",gameText:"Łap jajka, zdobywaj punkty, zmierz się z etapami biegowymi, graj w minigry 3D i odkrywaj rosnący świat pełen lekkich wyzwań.",
