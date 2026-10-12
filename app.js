@@ -1,43 +1,35 @@
 const copy={
-en:{
-navGame:"Game",navGallery:"Gallery",navAbout:"About",navContact:"Contact",
-eyebrow:"Independent game studio",tagline:"Free games. No ads. Made with heart.",
-lead:"Colorful, family-friendly games built around fun, reflexes and small adventures.",
-discover:"Discover the game",playStore:"Google Play",free:"Free",noAds:"No ads",support:"Optional support",
-featured:"Featured game",openPlay:"Open in Google Play →",catchTitle:"Catch. Run. Explore.",
-gameText:"Catch eggs, avoid obstacles, escape the hens in runner stages and discover a cheerful 3D world. Pick your hero and improve your score at your own pace.",
-heroes:"4 heroes",heroesSub:"Wolf, Fox, Ram and Dog",arcade:"Arcade action",arcadeSub:"Eggs, bonuses and obstacles",
-runner:"Runner stages",runnerSub:"Fast bonus challenges",mini:"3D mini-games",miniSub:"Memory, Checkers and more",
-download:"Play for free on Google Play",inside:"Inside the game",galleryTitle:"A colorful world in your pocket",
-ourStory:"Our story",storyTitle:"Small studio. Big pulse.",
-storyText:"NextPulse Games is an independent studio focused on friendly games that respect the player. No disruptive ads, no pay-to-win pressure — just play, discover and have fun.",
-p1:"Player first",p2:"Family friendly",p3:"No ads",p4:"Built with feedback",follow:"Follow the journey",
-socialTitle:"See what we are building next",socialText:"Development clips, new worlds, characters, updates and behind-the-scenes progress.",
-privacy:"Privacy Policy",rights:"All rights reserved."
-},
-pl:{
-navGame:"Gra",navGallery:"Galeria",navAbout:"O nas",navContact:"Kontakt",
-eyebrow:"Niezależne studio gier",tagline:"Darmowe gry. Bez reklam. Tworzone z pasją.",
-lead:"Kolorowe, rodzinne gry oparte na zabawie, refleksie i małych przygodach.",
-discover:"Poznaj grę",playStore:"Google Play",free:"Bezpłatna",noAds:"Bez reklam",support:"Dobrowolne wsparcie",
-featured:"Nasza gra",openPlay:"Otwórz w Google Play →",catchTitle:"Łap. Biegnij. Odkrywaj.",
-gameText:"Łap jajka, unikaj przeszkód, uciekaj przed kurami w etapach biegowych i odkrywaj pogodny świat 3D. Wybierz bohatera i poprawiaj swoje wyniki we własnym tempie.",
-heroes:"4 bohaterów",heroesSub:"Wilk, Lis, Baran i Pies",arcade:"Zręcznościowa zabawa",arcadeSub:"Jajka, bonusy i przeszkody",
-runner:"Etapy biegowe",runnerSub:"Szybkie wyzwania bonusowe",mini:"Minigry 3D",miniSub:"Memory, Warcaby i więcej",
-download:"Zagraj za darmo w Google Play",inside:"Zajrzyj do gry",galleryTitle:"Kolorowy świat w Twojej kieszeni",
-ourStory:"Nasza historia",storyTitle:"Małe studio. Duży impuls.",
-storyText:"NextPulse Games to niezależne studio tworzące przyjazne gry, które szanują gracza. Bez uciążliwych reklam i presji pay-to-win — po prostu graj, odkrywaj i dobrze się baw.",
-p1:"Gracz na pierwszym miejscu",p2:"Przyjazne rodzinie",p3:"Bez reklam",p4:"Rozwój dzięki opiniom",follow:"Obserwuj rozwój",
-socialTitle:"Zobacz, co tworzymy dalej",socialText:"Fragmenty prac, nowe światy, bohaterowie, aktualizacje i kulisy tworzenia gry.",
-privacy:"Polityka prywatności",rights:"Wszelkie prawa zastrzeżone."
-}};
+  en:{
+    navGame:"Game",navGallery:"Gallery",navStudio:"Studio",navSocial:"Follow",eyebrow:"Independent game studio",
+    heroTitle:"Games with energy. Built with care.",heroText:"We create colorful games designed to be fun, friendly and easy to jump into — without disruptive ads.",
+    discover:"Discover Wolf And Eggs 3D",googlePlay:"Google Play",free:"Free to play",freeSub:"Start playing without a paywall",noAds:"No ads",noAdsSub:"No disruptive advertising",support:"Optional support",supportSub:"Support the creator only if you want to",feedback:"Built with feedback",feedbackSub:"The game evolves with player input",
+    featured:"Featured game",gameLead:"A cheerful arcade adventure that keeps growing.",openPlay:"Open in Google Play ↗",catchTitle:"Catch. Run. Explore.",gameText:"Catch eggs, score points, take on runner stages, play 3D mini-games and discover a growing world full of lighthearted challenges.",
+    heroes:"4 playable heroes",heroesSub:"Wolf, Fox, Ram and Dog",arcade:"Arcade gameplay",arcadeSub:"Catch eggs, bonuses and surprises",runner:"Runner stages",runnerSub:"Fast bonus challenges",mini:"3D mini-games",miniSub:"Memory, Checkers and more",download:"Play for free on Google Play",supportNote:"No ads. Optional creator support.",
+    galleryKicker:"Real gameplay",galleryTitle:"See the game in action",galleryLead:"Screenshots from the actual game — no fake gameplay renders.",scrollHint:"Swipe / scroll →",
+    studioKicker:"NextPulse Games",studioTitle:"Small studio. Big pulse.",studioText:"NextPulse Games is an independent studio focused on friendly, approachable games. We build, test, listen and improve — with the goal of making play feel simple, joyful and fair.",tag1:"Family-friendly",tag2:"Player-first",tag3:"No disruptive ads",tag4:"Always evolving",
+    nextKicker:"What's next",nextTitle:"More worlds. More characters. More adventures.",nextText:"Wolf And Eggs 3D is still growing. Follow NextPulse Games to see development previews, new features and upcoming projects.",followDevelopment:"Follow development",
+    follow:"Follow NextPulse Games",socialTitle:"Join the journey",socialText:"Shorts, updates, behind-the-scenes development and new game announcements.",privacy:"Privacy Policy",rights:"All rights reserved."
+  },
+  pl:{
+    navGame:"Gra",navGallery:"Galeria",navStudio:"Studio",navSocial:"Obserwuj",eyebrow:"Niezależne studio gier",
+    heroTitle:"Gry z energią. Tworzone z pasją.",heroText:"Tworzymy kolorowe gry, które mają dawać prostą, przyjazną zabawę — bez uciążliwych reklam.",
+    discover:"Poznaj Wolf And Eggs 3D",googlePlay:"Google Play",free:"Bezpłatna gra",freeSub:"Zacznij bez paywalla",noAds:"Bez reklam",noAdsSub:"Bez przerywania rozgrywki reklamami",support:"Dobrowolne wsparcie",supportSub:"Wspierasz twórcę tylko jeśli chcesz",feedback:"Rozwój z graczami",feedbackSub:"Gra zmienia się dzięki opiniom graczy",
+    featured:"Nasza gra",gameLead:"Pogodna zręcznościowa przygoda, która ciągle się rozwija.",openPlay:"Otwórz w Google Play ↗",catchTitle:"Łap. Biegnij. Odkrywaj.",gameText:"Łap jajka, zdobywaj punkty, zmierz się z etapami biegowymi, graj w minigry 3D i odkrywaj rosnący świat pełen lekkich wyzwań.",
+    heroes:"4 grywalnych bohaterów",heroesSub:"Wilk, Lis, Baran i Pies",arcade:"Zręcznościowa rozgrywka",arcadeSub:"Jajka, bonusy i niespodzianki",runner:"Etapy biegowe",runnerSub:"Szybkie wyzwania bonusowe",mini:"Minigry 3D",miniSub:"Memory, Warcaby i więcej",download:"Zagraj za darmo w Google Play",supportNote:"Bez reklam. Dobrowolne wsparcie twórcy.",
+    galleryKicker:"Prawdziwa rozgrywka",galleryTitle:"Zobacz grę w akcji",galleryLead:"Kadry z prawdziwej gry — bez sztucznie wygenerowanej rozgrywki.",scrollHint:"Przesuń / przewiń →",
+    studioKicker:"NextPulse Games",studioTitle:"Małe studio. Duży impuls.",studioText:"NextPulse Games to niezależne studio skupione na przyjaznych, łatwo dostępnych grach. Tworzymy, testujemy, słuchamy i poprawiamy — tak, aby zabawa była prosta, radosna i fair.",tag1:"Przyjazne rodzinie",tag2:"Gracz na pierwszym miejscu",tag3:"Bez uciążliwych reklam",tag4:"Ciągły rozwój",
+    nextKicker:"Co dalej",nextTitle:"Więcej światów. Więcej bohaterów. Więcej przygód.",nextText:"Wolf And Eggs 3D nadal rośnie. Obserwuj NextPulse Games, aby zobaczyć zapowiedzi nowych funkcji, aktualizacje i kolejne projekty.",followDevelopment:"Obserwuj rozwój",
+    follow:"Obserwuj NextPulse Games",socialTitle:"Dołącz do tej historii",socialText:"Shorty, aktualizacje, kulisy tworzenia i zapowiedzi nowych gier.",privacy:"Polityka prywatności",rights:"Wszelkie prawa zastrzeżone."
+  }
+};
 let lang=localStorage.getItem("npg_lang")||((navigator.language||"").toLowerCase().startsWith("pl")?"pl":"en");
-function apply(){
- document.documentElement.lang=lang; document.documentElement.dataset.lang=lang;
- document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.dataset.i18n;if(copy[lang][k])el.textContent=copy[lang][k]});
- document.getElementById("langBtn").textContent=lang==="pl"?"EN":"PL";
- document.title=lang==="pl"?"NextPulse Games — Darmowe gry. Bez reklam. Tworzone z pasją.":"NextPulse Games — Free games. No ads. Made with heart.";
+function applyLanguage(){
+  document.documentElement.lang=lang;
+  document.documentElement.dataset.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{const key=el.dataset.i18n;if(copy[lang][key])el.textContent=copy[lang][key]});
+  const btn=document.getElementById("langBtn"); if(btn) btn.textContent=lang==="pl"?"EN":"PL";
+  document.title=lang==="pl"?"NextPulse Games — Gry z energią. Tworzone z pasją.":"NextPulse Games — Fun. Energy. Play.";
 }
-document.getElementById("langBtn").addEventListener("click",()=>{lang=lang==="pl"?"en":"pl";localStorage.setItem("npg_lang",lang);apply()});
+document.getElementById("langBtn")?.addEventListener("click",()=>{lang=lang==="pl"?"en":"pl";localStorage.setItem("npg_lang",lang);applyLanguage()});
 document.getElementById("year").textContent=new Date().getFullYear();
-apply();
+applyLanguage();
