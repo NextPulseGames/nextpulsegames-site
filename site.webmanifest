@@ -1,0 +1,9 @@
+{
+  "name":"NextPulse Games",
+  "short_name":"NextPulse",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#06183f",
+  "theme_color":"#06183f",
+  "icons":[{"src":"assets/favicon-32.png","sizes":"32x32","type":"image/png"}]
+}
