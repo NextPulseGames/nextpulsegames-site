@@ -35,7 +35,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="styles.css?v=20261016-41">
+  <link rel="stylesheet" href="styles.css?v=20261016-42">
 
   <script type="application/ld+json">
   {
@@ -234,6 +234,16 @@
   </section>
 </main>
 
+<div class="shot-lightbox" id="screenshotLightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Screenshot preview">
+  <button class="shot-lightbox-close" id="shotLightboxClose" type="button" aria-label="Close screenshot">×</button>
+  <button class="shot-lightbox-nav shot-lightbox-prev" id="shotLightboxPrev" type="button" aria-label="Previous screenshot">‹</button>
+  <figure class="shot-lightbox-figure">
+    <img id="shotLightboxImage" src="" alt="">
+    <figcaption id="shotLightboxCaption"></figcaption>
+  </figure>
+  <button class="shot-lightbox-nav shot-lightbox-next" id="shotLightboxNext" type="button" aria-label="Next screenshot">›</button>
+</div>
+
 <footer class="footer">
   <div class="footer-brand"><img src="assets/brand-logo.webp?v=20261012" alt="" width="42" height="42"><span>NextPulse Games</span></div>
   <div class="footer-links">
@@ -242,6 +252,6 @@
   </div>
   <p>© <span id="year"></span> NextPulse Games. <span data-i18n="rights">All rights reserved.</span></p>
 </footer>
-<script src="app.js?v=20261016-40" defer></script>
+<script src="app.js?v=20261016-42" defer></script>
 </body>
 </html>
