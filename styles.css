@@ -51,3 +51,12 @@ radial-gradient(ellipse at 82% 75%,#124a78 0 20%,transparent 21%);opacity:.9}
   .hero-games{font-size:28px}
   .hero-brand-tag{font-size:20px}
 }
+
+/* v4.0 (40) media refresh */
+.video-shell{min-height:0;padding:14px;overflow:hidden}
+.video-shell iframe{width:100%;aspect-ratio:16/9;display:block;border:0;border-radius:18px;background:#000}
+.video-label{display:flex;justify-content:flex-start;margin:0 0 12px}
+.preview-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;background:linear-gradient(90deg,rgba(37,198,255,.12),rgba(141,241,0,.14));border:1px solid rgba(23,114,215,.16);color:#0f5eaa;font-size:12px;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+.gallery-version{margin-top:12px}
+.shots img{aspect-ratio:16/9;object-fit:cover}
+@media(max-width:700px){.video-shell{padding:8px;border-radius:20px}.video-label{margin:0 0 8px}.preview-badge{font-size:10px;padding:7px 10px;letter-spacing:.04em}}
