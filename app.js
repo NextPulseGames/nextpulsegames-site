@@ -53,3 +53,53 @@ function applyLanguage(){
 document.getElementById("langBtn")?.addEventListener("click",()=>{lang=lang==="pl"?"en":"pl";localStorage.setItem("npg_lang",lang);applyLanguage()});
 document.getElementById("year").textContent=new Date().getFullYear();
 applyLanguage();
+
+function setupScreenshotLightbox(){
+  const lightbox=document.getElementById("screenshotLightbox");
+  const lightboxImg=document.getElementById("shotLightboxImage");
+  const caption=document.getElementById("shotLightboxCaption");
+  const closeBtn=document.getElementById("shotLightboxClose");
+  const prevBtn=document.getElementById("shotLightboxPrev");
+  const nextBtn=document.getElementById("shotLightboxNext");
+  if(!lightbox||!lightboxImg||!caption) return;
+
+  const shots=()=>Array.from(document.querySelectorAll(".shots img[data-shot]"));
+  let index=0;
+
+  function show(i){
+    const all=shots();
+    if(!all.length) return;
+    index=(i+all.length)%all.length;
+    const src=all[index];
+    lightboxImg.src=src.currentSrc||src.src;
+    lightboxImg.alt=src.alt||"";
+    caption.textContent=src.alt||"";
+    lightbox.classList.add("open");
+    lightbox.setAttribute("aria-hidden","false");
+    document.body.classList.add("lightbox-open");
+  }
+  function close(){
+    lightbox.classList.remove("open");
+    lightbox.setAttribute("aria-hidden","true");
+    document.body.classList.remove("lightbox-open");
+    lightboxImg.src="";
+  }
+  shots().forEach((img,i)=>{
+    img.tabIndex=0;
+    img.setAttribute("role","button");
+    img.setAttribute("aria-label",(img.alt||"Screenshot")+" — "+(lang==="pl"?"kliknij, aby powiększyć":"click to enlarge"));
+    img.addEventListener("click",()=>show(i));
+    img.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();show(i)}});
+  });
+  closeBtn?.addEventListener("click",close);
+  prevBtn?.addEventListener("click",()=>show(index-1));
+  nextBtn?.addEventListener("click",()=>show(index+1));
+  lightbox.addEventListener("click",e=>{if(e.target===lightbox) close()});
+  document.addEventListener("keydown",e=>{
+    if(!lightbox.classList.contains("open")) return;
+    if(e.key==="Escape") close();
+    else if(e.key==="ArrowLeft") show(index-1);
+    else if(e.key==="ArrowRight") show(index+1);
+  });
+}
+setupScreenshotLightbox();
