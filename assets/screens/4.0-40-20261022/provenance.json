@@ -1,0 +1,296 @@
+{
+  "source_project": "wolfandeggs3d_gotowe_29_06",
+  "project_version": "4.0",
+  "version_code": 40,
+  "captured": "2026-10-22",
+  "engine": "Godot 4.7 stable",
+  "method": "Native 1920x1080 viewport of running source snapshot; normal game actions, separate copied save; no gameplay source changes",
+  "published_version": "Not inferred from the local project",
+  "images": [
+    {
+      "captured_utc": "2026-10-22T19:58:17",
+      "file": "01_menu.png",
+      "frame": 260,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "MENU",
+      "source_sha256": "26985770e8815281631a26e3451e7a050fcca8efaea5d1edf649f49700be6354",
+      "site_file": "assets/screens/4.0-40-20261022/en/01_menu.jpg",
+      "site_sha256": "124839e679a9c498fee7c05fb394f02e651c3adc193d4f066f33387e1ae383ac"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:19",
+      "file": "02_catch_meadow.png",
+      "frame": 450,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "108398dab6cac5cdcc3041e287a3aa7bc7aa38c514f0c54280d2f94162c7a2c7",
+      "site_file": "assets/screens/4.0-40-20261022/en/02_catch_meadow.jpg",
+      "site_sha256": "8cebaf1d89f3334bdb158d4c0f06fd064bbf536d935dbe2de5a729067e5373b1"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:21",
+      "file": "03_catch_forest.png",
+      "frame": 640,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "e212a7f221172203424fc5e7d440ea10640121f005d3fd6df284b3ec28655b1e",
+      "site_file": "assets/screens/4.0-40-20261022/en/03_catch_forest.jpg",
+      "site_sha256": "a373f947a4db3f689890512dd97d92145162cd4de3aa2ceffd235322f97a9485"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:26",
+      "file": "04_catch_sea.png",
+      "frame": 830,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "c8ee50e3f55fb2cf1746e90669a9fc0e0d462e877309b81fd5945450af5e455d",
+      "site_file": "assets/screens/4.0-40-20261022/en/04_catch_sea.jpg",
+      "site_sha256": "6427df64370ee37e25c7d14892978a90f7a45282a80b7b003ed2d0f8c4a96562"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:27",
+      "file": "05_memory.png",
+      "frame": 889,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "MEMORY",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "dd1be8e5651ed1ce582b2a28854e5ed750a1dbb92a864a41269a0bc9f9071953",
+      "site_file": "assets/screens/4.0-40-20261022/en/05_memory.jpg",
+      "site_sha256": "12baea85a5cfc2c6aefb5383a107d41077ca0de7f98a5bc8402b78607d1d9800"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:28",
+      "file": "06_checkers.png",
+      "frame": 924,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "CHECKERS",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "55b3ee617800a98f61057c0e07051e6b56dd5463c34950fcdf29c5b275adbbb9",
+      "site_file": "assets/screens/4.0-40-20261022/en/06_checkers.jpg",
+      "site_sha256": "ab55ba7a72b8f78c89bfd6bbc6107963399900fa11916d2b65719acd704d0e21"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:36",
+      "file": "07_world_green.png",
+      "frame": 1054,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "MATCH",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "WORLD",
+      "source_sha256": "b8e8a0f4252d8b794f0971c76441276697a61b76db37d49d1941e7586fd4d780",
+      "site_file": "assets/screens/4.0-40-20261022/en/07_world_green.jpg",
+      "site_sha256": "1d445d399156e13db7e15af83a8f321d905650143618b889e98692c2c37c6075"
+    },
+    {
+      "captured_utc": "2026-10-22T19:58:29",
+      "file": "08_egg_matching.png",
+      "frame": 959,
+      "hero": "WOLF",
+      "language": "en",
+      "minigame": "MATCH",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "e4039430e5e1d9628a5a30d9dbe0443a3102570bc71d36b29ccb787ebafdd038",
+      "site_file": "assets/screens/4.0-40-20261022/en/08_egg_matching.jpg",
+      "site_sha256": "b20d714637ffaaa6adc6e5f94bf749e47d11df4acdb92100f1f5fb77a690c903"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:37",
+      "file": "01_menu.png",
+      "frame": 260,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "MENU",
+      "source_sha256": "04a97c408d12fb838a6d1e8d0c3a1328685cbd360e00f1d73b48e5433fc00615",
+      "site_file": "assets/screens/4.0-40-20261022/pl/01_menu.jpg",
+      "site_sha256": "254f5b874d8e79ab4d381be9ff0a8c190a8d4452d898a1420b8b6e72cfa39a67"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:39",
+      "file": "02_catch_meadow.png",
+      "frame": 450,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "95ec8d16db6135b7569f285a0e2770b96ec31f9ae45ce0b772a01285774ae7d3",
+      "site_file": "assets/screens/4.0-40-20261022/pl/02_catch_meadow.jpg",
+      "site_sha256": "19b153953694bc6d6e9ad5a54bb23749cb7dbc72778cc8291435ecfddbb70a0a"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:41",
+      "file": "03_catch_forest.png",
+      "frame": 640,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "3033cddb8b51fd0bf4dc2b7aa008f8dd7dfbbc73c7beb940f964e8c03183cd60",
+      "site_file": "assets/screens/4.0-40-20261022/pl/03_catch_forest.jpg",
+      "site_sha256": "bcbbc832aa93a34f1e35f7701dc489ff49d9d5f170cf6415b3ad0eb479d5ee8f"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:45",
+      "file": "04_catch_sea.png",
+      "frame": 830,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "PLAYING",
+      "source_sha256": "32417c796e475887e82c38dcd7f57ec98c625504e04d26f1e789627b03fddf3f",
+      "site_file": "assets/screens/4.0-40-20261022/pl/04_catch_sea.jpg",
+      "site_sha256": "43b5a7d5e6e3b6adea9835411b555da933a7a496bc1a71d6bc30d378320ad109"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:46",
+      "file": "05_memory.png",
+      "frame": 889,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "MEMORY",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "d03ff7d8b456bad04bca17ab9a85143fc97c8bb7c117ae9bc5babde1b3c3ecc6",
+      "site_file": "assets/screens/4.0-40-20261022/pl/05_memory.jpg",
+      "site_sha256": "ef0c408af5563c1dcbb7d0756d1046bdebb25dc169e9c95b1157721b659d08fd"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:47",
+      "file": "06_checkers.png",
+      "frame": 924,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "CHECKERS",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "09a88e9e7103684edd91c67235efef2867b585737281e469ed0315a6f3ca15fe",
+      "site_file": "assets/screens/4.0-40-20261022/pl/06_checkers.jpg",
+      "site_sha256": "03f61803e83f7aa7cbc7f01dfaff039cb7fba19e0570fd70cb8209e0dda88940"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:55",
+      "file": "07_world_green.png",
+      "frame": 1054,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "MATCH",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "WORLD",
+      "source_sha256": "35ec5b203a9a09ccf46052ab738eec062f084821b212d08596902ec8b5338530",
+      "site_file": "assets/screens/4.0-40-20261022/pl/07_world_green.jpg",
+      "site_sha256": "ddcf06d11f3271c2a8fa53080394ded8a60cd73bda4987d920fc3b58058aaa22"
+    },
+    {
+      "captured_utc": "2026-10-22T19:59:48",
+      "file": "08_egg_matching.png",
+      "frame": 959,
+      "hero": "WOLF",
+      "language": "pl",
+      "minigame": "MATCH",
+      "score": 0,
+      "size": [
+        1920,
+        1080
+      ],
+      "state": "BONUS_MINIGAME",
+      "source_sha256": "72d007a8dadf98a6a010f8501eb16158a1b41f590d187432127ea0ceceab440d",
+      "site_file": "assets/screens/4.0-40-20261022/pl/08_egg_matching.jpg",
+      "site_sha256": "b1bba30e8632a5478f069eda05a96a409774f13922dd72ab6e8739e489b9dd4a"
+    }
+  ],
+  "banner": {
+    "file": "assets/brand/NextPulse_Games_baner.jpg",
+    "sha256": "4184bd2426eae8f1ea2589439716679cb620055435aa87868689a8563b5eabe8",
+    "original_dimensions": [
+      4096,
+      2304
+    ],
+    "responsive_widths": [
+      768,
+      1536,
+      2048
+    ]
+  }
+}
