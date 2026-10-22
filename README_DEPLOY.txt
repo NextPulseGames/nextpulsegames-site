@@ -13,10 +13,12 @@ You only pay for the domain. The website hosting can remain free.
 
 FILES
 -----
-index.html       main bilingual PL/EN website
+index.html       complete English website
+pl/index.html    complete Polish website
 styles.css       visual design and responsive layout
-app.js           PL/EN language switch
-privacy.html     basic website privacy page
+app.js           accessible screenshot dialog and on-demand video player
+privacy.html     English website privacy page
+pl/privacy.html  Polish website privacy page
 assets/          your real promotional materials and gameplay
 
 SOCIAL LINKS
@@ -49,3 +51,39 @@ DEPLOY TO GITHUB PAGES
 10. Enable Enforce HTTPS after DNS becomes active
 
 No database, server, WordPress, hosting plan or paid plugin is needed.
+
+UPDATE WORKFLOW (22 OCTOBER 2026)
+--------------------------------
+Edit both static language pages. The URL, not browser or stored preferences,
+selects the language. Language controls must remain normal links.
+
+Before publishing:
+  python tests/check_site.py
+  node tests/check_script.cjs
+  node --check app.js
+  git diff --check
+
+Check the site in a browser at 390, 768 and 1440px, including no-JavaScript
+rendering, language links, video, gallery keyboard focus and nested 404 URLs.
+Publish through main at the repository root, preserving CNAME and .nojekyll.
+After Pages deployment, repeat GET checks against the public domain; a local
+preview does not prove that production is updated.
+
+MEDIA
+-----
+assets/brand/NextPulse_Games_baner.jpg is the supplied original (4096x2304).
+The 768/1536/2048px WebP files are responsive derivatives, not a new design.
+assets/screens/4.0-40-20261022 contains 8 newly captured scenes per language,
+full 1920x1080 JPEGs, 960px WebP thumbnails and a provenance manifest.
+The gallery, social images and video preview use these current captures.
+The existing PL/EN YouTube videos are labelled as earlier footage, not as the
+latest local build. Legacy unused media is retained to avoid breaking links.
+
+HOSTING / SEARCH
+----------------
+GitHub Pages controls HTTP/WWW/custom-domain redirects and directory slashes.
+Do not add .htaccess rules or turn every missing URL into a homepage redirect.
+Both / and /pl/ are canonical 200 pages. /index.html can remain a duplicate
+200 with canonical /; it is excluded from the sitemap and internal navigation.
+The Google Search Console "Page with redirect" report can include legitimate
+redirect sources. It is not the separate "Redirect error" status.
