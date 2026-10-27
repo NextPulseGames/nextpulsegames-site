@@ -23,8 +23,8 @@ button {font: inherit; cursor: pointer}
 .nav-links a:hover {color: var(--lime)}
 .lang-btn {display: grid; place-items: center; min-width: 48px; min-height: 44px; border: 1px solid #60748c; border-radius: 6px; font-weight: 800}
 .hero {background: #020d2d; color: white; padding-bottom: 32px}
-.hero-brand-visual {max-width: min(960px, max(360px, calc((100svh - 360px) * 1.77778))); margin: auto}
-.hero-brand-visual img {width: 100%; aspect-ratio: 16 / 9; object-fit: contain}
+.hero-brand-visual {width: 100%; max-width: none; height: clamp(220px, 18vw, 320px); margin: 0; overflow: hidden}
+.hero-brand-visual img {width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: center}
 .hero-content {max-width: var(--max); margin: 0 auto; padding: 20px 24px 4px; display: grid; grid-template-columns: 1fr 240px; gap: 32px; align-items: center}
 .eyebrow, .kicker {font-size: 12px; font-weight: 800; text-transform: uppercase; color: #006c88}
 .hero .eyebrow {color: #9ce9ff}
