@@ -1,0 +1,1358 @@
+NEXTPULSE GAMES WEBSITE SOURCE SNAPSHOT
+Generated: 2026-10-31
+Repository: https://github.com/NextPulseGames/nextpulsegames-site
+Domain: https://nextpulsegames.com/
+
+This file contains the complete text source used by the rebuilt website.
+Binary image, video and QR assets remain in the repository under /assets.
+
+
+
+========================================================================================
+FILE: index.html
+========================================================================================
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>NextPulse Games | Wolf And Eggs 3D, free and ad-free</title>
+<meta content="Wolf And Eggs 3D is a free family arcade game for Android, created by one independent developer in Godot Engine and Blender. No ads and no pay-to-win." name="description"/>
+<meta content="#06183f" name="theme-color"/>
+<meta content="NextPulse Games" name="application-name"/>
+<meta content="NextPulse Games" name="author"/>
+<meta content="NextPulse Games" name="creator"/>
+<meta content="NextPulse Games" name="publisher"/>
+<meta content="dark light" name="color-scheme"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://nextpulsegames.com/" rel="canonical"/>
+<link href="https://nextpulsegames.com/" hreflang="en" rel="alternate"/>
+<link href="https://nextpulsegames.com/pl/" hreflang="pl" rel="alternate"/>
+<link href="https://nextpulsegames.com/" hreflang="x-default" rel="alternate"/>
+<meta content="website" property="og:type"/>
+<meta content="NextPulse Games" property="og:site_name"/>
+<meta content="NextPulse Games | Wolf And Eggs 3D, free and ad-free" property="og:title"/>
+<meta content="A family-friendly 3D arcade game made by one independent developer. Free on Android, without ads or pay-to-win." property="og:description"/>
+<meta content="https://nextpulsegames.com/assets/screens/4.0-40-20261022/en/02_catch_meadow.jpg" property="og:image"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Wolf catching eggs in a meadow in Wolf And Eggs 3D" property="og:image:alt"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="pl_PL" property="og:locale:alternate"/>
+<meta content="https://nextpulsegames.com/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@NextPulseGames" name="twitter:site"/>
+<meta content="NextPulse Games | Wolf And Eggs 3D" name="twitter:title"/>
+<meta content="Free family arcade gameplay, no ads, no pay-to-win, built with Godot Engine and Blender." name="twitter:description"/>
+<meta content="https://nextpulsegames.com/assets/screens/4.0-40-20261022/en/02_catch_meadow.jpg" name="twitter:image"/>
+<meta content="Wolf catching eggs in a meadow in Wolf And Eggs 3D" name="twitter:image:alt"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link href="/styles.css?v=20261031-1" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Organization",
+      "@id":"https://nextpulsegames.com/#organization",
+      "name":"NextPulse Games",
+      "url":"https://nextpulsegames.com/",
+      "logo":"https://nextpulsegames.com/assets/brand-logo.webp",
+      "sameAs":[
+        "https://linktr.ee/nextpulsegames",
+        "https://x.com/NextPulseGames",
+        "https://www.youtube.com/@NextPulseGames",
+        "https://www.instagram.com/nextpulsegames/",
+        "https://www.tiktok.com/@nextpulsegames",
+        "https://ko-fi.com/nextpulsegames",
+        "https://buycoffee.to/nextpulsegames"
+      ]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://nextpulsegames.com/#website",
+      "url":"https://nextpulsegames.com/",
+      "name":"NextPulse Games",
+      "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+      "inLanguage":["en","pl"]
+    },
+    {
+      "@type":"VideoGame",
+      "@id":"https://nextpulsegames.com/#videogame",
+      "name":"Wolf And Eggs 3D",
+      "url":"https://nextpulsegames.com/#game",
+      "image":"https://nextpulsegames.com/assets/screens/4.0-40-20261022/en/02_catch_meadow.jpg",
+      "description":"A free family arcade game for Android, created by one independent developer in Godot Engine and Blender. No ads and no pay-to-win.",
+      "genre":["Arcade","Casual","Family"],
+      "applicationCategory":"Game",
+      "operatingSystem":"Android",
+      "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+      "offers":{
+        "@type":"Offer",
+        "price":"0",
+        "priceCurrency":"USD",
+        "availability":"https://schema.org/InStock",
+        "url":"https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d"
+      },
+      "inLanguage":["en","pl"],
+      "isAccessibleForFree":true
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://nextpulsegames.com/#webpage",
+      "url":"https://nextpulsegames.com/",
+      "name":"NextPulse Games | Wolf And Eggs 3D, free and ad-free",
+      "inLanguage":"en",
+      "isPartOf":{"@id":"https://nextpulsegames.com/#website"},
+      "about":{"@id":"https://nextpulsegames.com/#videogame"}
+    }
+  ]
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg class="svg-sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
+  <symbol id="i-gamepad" viewBox="0 0 24 24"><path d="M8 8h8a5 5 0 0 1 4.8 6.4l-1 3.4a2.6 2.6 0 0 1-4.4 1l-2-2.3h-2.8l-2 2.3a2.6 2.6 0 0 1-4.4-1l-1-3.4A5 5 0 0 1 8 8z"/><path d="M7 12v4M5 14h4M16 13h.01M18 15h.01"/></symbol>
+  <symbol id="i-ban" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m5.7 5.7 12.6 12.6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.9 8 7 10 4.1-2 7-5.3 7-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c.5-4 2.7-6 6-6s5.5 2 6 6M15 15c3 0 5 1.7 5.5 5"/></symbol>
+  <symbol id="i-run" viewBox="0 0 24 24"><circle cx="14" cy="5" r="2"/><path d="m11 9 3 2 2 4M14 11l-3 4-4 1M12 15l3 5M9 16l-2 4"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9z"/><path d="m4.5 7.8 7.5 4.3 7.5-4.3M12 12v9"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+  <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 8h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M16 10h2a3 3 0 0 1 0 6h-2M7 4v2M11 4v2"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.1.1l2-2a5 5 0 0 0-7.1-7.1l-1.1 1.1"/><path d="M14 11a5 5 0 0 0-7.1-.1l-2 2A5 5 0 0 0 12 20l1.1-1.1"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M21 8.2a2.8 2.8 0 0 0-2-2C17.2 5.7 12 5.7 12 5.7s-5.2 0-7 .5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2.5 12 29 29 0 0 0 3 15.8a2.8 2.8 0 0 0 2 2c1.8.5 7 .5 7 .5s5.2 0 7-.5a2.8 2.8 0 0 0 2-2 29 29 0 0 0 .5-3.8 29 29 0 0 0-.5-3.8z"/><path d="m10 9 5 3-5 3z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 4v10.5a4.5 4.5 0 1 1-4-4.5"/><path d="M14 4c1 3 3 4.5 6 4.8"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="m5 4 14 16M19 4 5 20"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a aria-label="NextPulse Games home" class="brand" href="#top">
+      <img alt="" height="52" src="/assets/brand-logo.webp?v=20261012" width="52"/>
+      <span>NextPulse <strong>Games</strong></span>
+    </a>
+    <nav aria-label="Main navigation" class="nav-links">
+      <a href="#game">Game</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#support">Support</a>
+      <a href="#studio">Studio</a>
+      <a href="#social">Follow</a>
+    </nav>
+    <a aria-label="Polska wersja" class="lang-btn" href="/pl/" hreflang="pl" lang="pl">PL</a>
+  </div>
+</header>
+
+<main id="main">
+  <section aria-labelledby="heroTitle" class="hero">
+    <div class="hero-brand-visual">
+      <img alt="NextPulse Games. Fun. Energy. Play." decoding="async" fetchpriority="high" height="1152" sizes="100vw" src="/assets/brand/nextpulse-20261027-1536.webp?v=20261027-2" srcset="/assets/brand/nextpulse-20261027-1024.webp?v=20261027-2 1024w, /assets/brand/nextpulse-20261027-1536.webp?v=20261027-2 1536w, /assets/brand/nextpulse-20261027-2048.webp?v=20261027-2 2048w" width="2048"/>
+    </div>
+    <div class="hero-content">
+      <div>
+        <span class="eyebrow">One-person independent game project</span>
+        <h1 id="heroTitle">Wolf And Eggs 3D is built for simple, honest fun</h1>
+        <p>I make Wolf And Eggs 3D as a one-person project for players who want a friendly arcade game without interruptions. It is free on Android, contains no ads and does not sell gameplay advantages.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d" rel="noopener noreferrer" target="_blank">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-play"/></svg>
+          Get it on Google Play
+        </a>
+        <a class="btn btn-secondary" href="#support">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-heart"/></svg>
+          Support the project
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Project principles" class="trust-strip">
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-ban"/></svg>
+      <strong>Zero ads</strong>
+      <small>No forced breaks in play</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg>
+      <strong>No pay-to-win</strong>
+      <small>Support never buys an advantage</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-users"/></svg>
+      <strong>Family-friendly</strong>
+      <small>Made for accessible, relaxed play</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg>
+      <strong>Made with Godot</strong>
+      <small>3D assets developed with Blender</small>
+    </div>
+  </section>
+
+  <section class="section" id="game">
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="kicker">About the game</span>
+        <h2>A small arcade game that keeps growing</h2>
+        <p>Wolf And Eggs 3D starts with a simple idea: move your hero, catch the eggs and try to beat your best score. Around that core I have added runner stages, a persistent world, local Bluetooth multiplayer and built-in mini-games such as Memory and Checkers.</p>
+        <p>The game is designed around gameplay rather than monetization. There are no advertising interruptions and no paid power-ups that decide who performs better. If someone chooses to support the project, it is a voluntary way to help development continue.</p>
+        <a class="inline-link" href="https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d" rel="noopener noreferrer" target="_blank">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-play"/></svg>
+          Open Wolf And Eggs 3D on Google Play
+        </a>
+      </div>
+      <div class="values-grid">
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-gamepad"/></svg>
+          <strong>Arcade catching</strong>
+          <p>Four heroes, changing locations, golden eggs and score chasing.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-run"/></svg>
+          <strong>Runner stages</strong>
+          <p>Bonus sequences with lanes, obstacles and collectible eggs.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-users"/></svg>
+          <strong>Local multiplayer</strong>
+          <p>Nearby players can connect and compete with shared standings.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-grid"/></svg>
+          <strong>Mini-games</strong>
+          <p>Memory, 3D Checkers and other activities expand the main game.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="inner">
+      <div class="feature-grid">
+        <div class="video-shell">
+          <span class="preview-badge">Gameplay trailer</span>
+          <a aria-label="Play the Wolf And Eggs 3D trailer" class="video-launch" data-title="Wolf And Eggs 3D trailer" data-video="https://www.youtube-nocookie.com/embed/SOO2h7GtrK4?rel=0" href="https://www.youtube.com/watch?v=SOO2h7GtrK4" rel="noopener noreferrer" target="_blank">
+            <img alt="Wolf And Eggs 3D gameplay by the sea" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/04_catch_sea-960.webp" width="1920"/>
+            <span aria-hidden="true" class="video-play"><svg class="ui-icon"><use href="#i-play"/></svg></span>
+          </a>
+          <p class="video-note">The trailer and screenshots below show the actual game build.</p>
+        </div>
+        <div class="feature-copy">
+          <span class="kicker">How I build it</span>
+          <h2>Gameplay first, then another pass</h2>
+          <p>Wolf And Eggs 3D is developed in short cycles. I build, test, adjust and keep the parts that make the game clearer or more enjoyable.</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg>
+              <div><strong>Godot Engine</strong><small>Gameplay, menus, world systems, multiplayer and Android builds.</small></div>
+            </div>
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-cube"/></svg>
+              <div><strong>Blender</strong><small>Characters, props and 3D assets developed for the game.</small></div>
+            </div>
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <div><strong>Fair by design</strong><small>No ad pressure and no paid advantage over other players.</small></div>
+            </div>
+          </div>
+          <a class="indie-badge" href="https://polskieindyki.pl/pl/gra/wolf-and-eggs-3d" rel="noopener noreferrer" target="_blank">
+            <img alt="Wolf And Eggs 3D on PolskieIndyki.pl" height="20" loading="lazy" src="https://polskieindyki.pl/badges/gra/wolf-and-eggs-3d.svg" width="223"/>
+            View the game on PolskieIndyki.pl
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <div class="section-title-row">
+      <div>
+        <span class="kicker">Real game screens</span>
+        <h2>See the current build</h2>
+        <p class="section-lead">Menus, egg-catching locations, the world and mini-games from Wolf And Eggs 3D.</p>
+      </div>
+    </div>
+    <div class="shots">
+      <figure><a aria-label="Choose your adventure, enlarge screenshot" data-shot="01_menu" href="/assets/screens/4.0-40-20261022/en/01_menu.jpg"><img alt="Choose your adventure" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/01_menu-960.webp" width="1920"/></a><figcaption>Choose your adventure</figcaption></figure>
+      <figure><a aria-label="Catching eggs in the meadow, enlarge screenshot" data-shot="02_catch_meadow" href="/assets/screens/4.0-40-20261022/en/02_catch_meadow.jpg"><img alt="Catching eggs in the meadow" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/02_catch_meadow-960.webp" width="1920"/></a><figcaption>Catching eggs in the meadow</figcaption></figure>
+      <figure><a aria-label="Catching eggs in the forest, enlarge screenshot" data-shot="03_catch_forest" href="/assets/screens/4.0-40-20261022/en/03_catch_forest.jpg"><img alt="Catching eggs in the forest" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/03_catch_forest-960.webp" width="1920"/></a><figcaption>Catching eggs in the forest</figcaption></figure>
+      <figure><a aria-label="Catching eggs by the sea, enlarge screenshot" data-shot="04_catch_sea" href="/assets/screens/4.0-40-20261022/en/04_catch_sea.jpg"><img alt="Catching eggs by the sea" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/04_catch_sea-960.webp" width="1920"/></a><figcaption>Catching eggs by the sea</figcaption></figure>
+      <figure><a aria-label="Memory mini-game, enlarge screenshot" data-shot="05_memory" href="/assets/screens/4.0-40-20261022/en/05_memory.jpg"><img alt="Memory mini-game" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/05_memory-960.webp" width="1920"/></a><figcaption>Memory mini-game</figcaption></figure>
+      <figure><a aria-label="3D Checkers, enlarge screenshot" data-shot="06_checkers" href="/assets/screens/4.0-40-20261022/en/06_checkers.jpg"><img alt="3D Checkers" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/06_checkers-960.webp" width="1920"/></a><figcaption>3D Checkers</figcaption></figure>
+      <figure><a aria-label="Exploring Green Valley, enlarge screenshot" data-shot="07_world_green" href="/assets/screens/4.0-40-20261022/en/07_world_green.jpg"><img alt="Exploring Green Valley" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/07_world_green-960.webp" width="1920"/></a><figcaption>Exploring Green Valley</figcaption></figure>
+      <figure><a aria-label="Egg matching mini-game, enlarge screenshot" data-shot="08_egg_matching" href="/assets/screens/4.0-40-20261022/en/08_egg_matching.jpg"><img alt="Egg matching mini-game" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/en/08_egg_matching-960.webp" width="1920"/></a><figcaption>Egg matching mini-game</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="support-section" id="support">
+    <div class="inner">
+      <div class="support-intro">
+        <div>
+          <span class="kicker">Voluntary support</span>
+          <h2>Help keep the project moving</h2>
+          <p class="section-lead">Wolf And Eggs 3D is free and ad-free. Support is optional and does not unlock stronger characters, higher scores or any gameplay advantage. If you enjoy the project, a small contribution helps with development tools, store costs and future updates.</p>
+        </div>
+        <aside class="support-note">
+          <strong>No pay-to-win</strong>
+          <p>Supporting NextPulse Games is a thank-you to the creator, not a purchase of power in the game.</p>
+        </aside>
+      </div>
+
+      <div class="support-payments">
+        <article class="support-card">
+          <h3>BuyCoffee for PLN and BLIK</h3>
+          <p>A convenient option for supporters in Poland. You can choose a one-time amount below or open the full BuyCoffee page.</p>
+          <div class="buycoffee-official">
+            <a href="https://buycoffee.to/nextpulsegames" rel="noopener noreferrer" target="_blank"><img src="https://buycoffee.to/static/img/share/share-button-primary--pl.png" style="width:351px;height:92px" alt="Support NextPulse Games on buycoffee.to"/></a>
+          </div>
+          <div class="coffee-widget">
+            <div class="coffee-widget-head"><h4>Choose an amount in PLN</h4></div>
+            <div class="coffee-options">
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=small" rel="noopener noreferrer" target="_blank" title="Support with 10 PLN"><img src="https://buycoffee.to/static/img/icons/coffee-small.svg" alt="Small coffee"/><span>10 PLN</span></a>
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=medium" rel="noopener noreferrer" target="_blank" title="Support with 25 PLN"><img src="https://buycoffee.to/static/img/icons/coffee-medium.svg" alt="Medium coffee"/><span>25 PLN</span></a>
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=large" rel="noopener noreferrer" target="_blank" title="Support with 50 PLN"><img src="https://buycoffee.to/static/img/icons/coffee-large.svg" alt="Large coffee"/><span>50 PLN</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="support-card">
+          <h3>Ko-fi for international support</h3>
+          <p>Ko-fi is the global support option. It is useful if you prefer international payments or want to support from outside Poland.</p>
+          <div class="support-links">
+            <a href="https://ko-fi.com/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-coffee"/></svg>Open Ko-fi</a>
+            <a href="https://linktr.ee/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-link"/></svg>All NextPulse links</a>
+            <a href="https://cuplink.to/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-link"/></svg>Cuplink payments</a>
+            <a href="https://buycoffee.to/nextpulsegames?tab=subs" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-heart"/></svg>BuyCoffee subscription</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="qr-heading">
+        <span class="kicker">Scan on another device</span>
+        <h2>Quick links by QR code</h2>
+      </div>
+      <div class="qr-grid">
+        <article class="qr-card">
+          <img alt="QR code linking to Wolf And Eggs 3D on Google Play" loading="lazy" src="/assets/qr/google-play.png"/>
+          <strong>Play Wolf And Eggs 3D on Google Play</strong>
+          <small>Direct link to the game page</small>
+        </article>
+        <article class="qr-card">
+          <img alt="QR code linking to NextPulse Games on Ko-fi" loading="lazy" src="/assets/qr/kofi.png"/>
+          <strong>Support the creator on Ko-fi</strong>
+          <small>International payments</small>
+        </article>
+        <article class="qr-card">
+          <img alt="QR code linking to NextPulse Games on BuyCoffee" loading="lazy" src="/assets/qr/buycoffee.png"/>
+          <strong>Quick BLIK support on BuyCoffee.to</strong>
+          <small>PLN and BLIK</small>
+        </article>
+        <article class="qr-card">
+          <img alt="QR code linking to BuyCoffee subscription options" loading="lazy" src="/assets/qr/buycoffee-subscription.png"/>
+          <strong>Regular support on BuyCoffee</strong>
+          <small>Subscription page from the supplied QR</small>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="studio" id="studio">
+    <div class="inner studio-grid">
+      <div class="studio-logo"><img alt="NextPulse Games logo" height="512" loading="lazy" src="/assets/brand-logo.webp?v=20261012" width="512"/></div>
+      <div class="studio-copy">
+        <span class="kicker">About NextPulse Games</span>
+        <h2>One creator, from the first prototype to every update</h2>
+        <p>NextPulse Games is a one-person game project. Wolf And Eggs 3D is designed, programmed, tested and developed independently, with Godot Engine handling the game and Blender supporting the 3D work. The goal is straightforward: make family-friendly games that are enjoyable to play without building the experience around advertisements or pay-to-win purchases.</p>
+        <p>I keep improving the project from real play tests and player feedback. New features are added when they make the game clearer, more varied or simply more fun.</p>
+        <div class="studio-points">
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg><strong>Godot Engine development</strong></div>
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-cube"/></svg><strong>3D work in Blender</strong></div>
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg><strong>Free, ad-free and fair</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section social" id="social">
+    <div class="section-title-row">
+      <div>
+        <span class="kicker">Follow development</span>
+        <h2>Updates, gameplay and behind the scenes</h2>
+        <p class="section-lead">Follow NextPulse Games for new builds, short gameplay clips, development progress and upcoming projects.</p>
+      </div>
+    </div>
+    <div class="social-grid">
+      <a aria-label="NextPulse Games on X" href="https://x.com/NextPulseGames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-x"/></svg><strong>X</strong><small>@NextPulseGames</small></a>
+      <a aria-label="NextPulse Games on YouTube" href="https://www.youtube.com/@NextPulseGames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-youtube"/></svg><strong>YouTube</strong><small>@NextPulseGames</small></a>
+      <a aria-label="NextPulse Games on Instagram" href="https://www.instagram.com/nextpulsegames/" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-instagram"/></svg><strong>Instagram</strong><small>@nextpulsegames</small></a>
+      <a aria-label="NextPulse Games on TikTok" href="https://www.tiktok.com/@nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-tiktok"/></svg><strong>TikTok</strong><small>@nextpulsegames</small></a>
+    </div>
+  </section>
+</main>
+
+<dialog aria-label="Screenshot preview" class="shot-lightbox" id="screenshotLightbox">
+  <button aria-label="Close screenshot" class="shot-lightbox-close" id="shotLightboxClose" type="button">×</button>
+  <button aria-label="Previous screenshot" class="shot-lightbox-nav shot-lightbox-prev" id="shotLightboxPrev" type="button">‹</button>
+  <figure class="shot-lightbox-figure">
+    <img alt="" id="shotLightboxImage"/>
+    <figcaption aria-live="polite" id="shotLightboxCaption"></figcaption>
+  </figure>
+  <button aria-label="Next screenshot" class="shot-lightbox-nav shot-lightbox-next" id="shotLightboxNext" type="button">›</button>
+</dialog>
+
+<aside class="kofi-footer-widget" aria-label="Ko-fi support widget">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'C1Q829SAK6');kofiwidget2.draw();</script>
+</aside>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><img alt="" height="42" src="/assets/brand-logo.webp?v=20261012" width="42"/><span>NextPulse Games</span></div>
+    <div class="footer-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="https://linktr.ee/nextpulsegames" rel="noopener noreferrer" target="_blank">Linktree</a>
+      <a href="https://buycoffee.to/nextpulsegames" rel="noopener noreferrer" target="_blank">BuyCoffee</a>
+      <a href="https://cuplink.to/nextpulsegames" rel="noopener noreferrer" target="_blank">Cuplink</a>
+      <a href="https://ko-fi.com/nextpulsegames" rel="noopener noreferrer" target="_blank">Ko-fi</a>
+      <a href="mailto:nextpulsegames@gmail.com">nextpulsegames@gmail.com</a>
+    </div>
+  </div>
+  <div class="footer-meta">
+    <span>Wolf And Eggs 3D: free, zero ads, no pay-to-win.</span>
+    <span>© <span id="year">2026</span> NextPulse Games. All rights reserved.</span>
+  </div>
+</footer>
+
+<script defer src="/app.js?v=20261031-1"></script>
+<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+<script>
+  kofiWidgetOverlay.draw('nextpulsegames', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</body>
+</html>
+
+
+========================================================================================
+FILE: pl/index.html
+========================================================================================
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>NextPulse Games | Wolf And Eggs 3D, darmowa gra bez reklam</title>
+<meta content="Wolf And Eggs 3D to darmowa rodzinna gra zręcznościowa na Androida, tworzona przez jedną osobę w Godot Engine i Blenderze. Bez reklam i bez pay-to-win." name="description"/>
+<meta content="#06183f" name="theme-color"/>
+<meta content="NextPulse Games" name="application-name"/>
+<meta content="NextPulse Games" name="author"/>
+<meta content="NextPulse Games" name="creator"/>
+<meta content="NextPulse Games" name="publisher"/>
+<meta content="dark light" name="color-scheme"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://nextpulsegames.com/pl/" rel="canonical"/>
+<link href="https://nextpulsegames.com/" hreflang="en" rel="alternate"/>
+<link href="https://nextpulsegames.com/pl/" hreflang="pl" rel="alternate"/>
+<link href="https://nextpulsegames.com/" hreflang="x-default" rel="alternate"/>
+<meta content="website" property="og:type"/>
+<meta content="NextPulse Games" property="og:site_name"/>
+<meta content="NextPulse Games | Wolf And Eggs 3D, darmowa gra bez reklam" property="og:title"/>
+<meta content="Rodzinna gra zręcznościowa 3D tworzona przez jedną osobę. Za darmo na Androida, bez reklam i bez pay-to-win." property="og:description"/>
+<meta content="https://nextpulsegames.com/assets/screens/4.0-40-20261022/pl/02_catch_meadow.jpg" property="og:image"/>
+<meta content="image/jpeg" property="og:image:type"/>
+<meta content="1920" property="og:image:width"/>
+<meta content="1080" property="og:image:height"/>
+<meta content="Wilk łapie jajka na łące w grze Wolf And Eggs 3D" property="og:image:alt"/>
+<meta content="pl_PL" property="og:locale"/>
+<meta content="en_US" property="og:locale:alternate"/>
+<meta content="https://nextpulsegames.com/pl/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@NextPulseGames" name="twitter:site"/>
+<meta content="NextPulse Games | Wolf And Eggs 3D" name="twitter:title"/>
+<meta content="Darmowa rodzinna rozgrywka, bez reklam i bez pay-to-win, tworzona w Godot Engine i Blenderze." name="twitter:description"/>
+<meta content="https://nextpulsegames.com/assets/screens/4.0-40-20261022/pl/02_catch_meadow.jpg" name="twitter:image"/>
+<meta content="Wilk łapie jajka na łące w grze Wolf And Eggs 3D" name="twitter:image:alt"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<link href="/styles.css?v=20261031-1" rel="stylesheet"/>
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Organization",
+      "@id":"https://nextpulsegames.com/#organization",
+      "name":"NextPulse Games",
+      "url":"https://nextpulsegames.com/",
+      "logo":"https://nextpulsegames.com/assets/brand-logo.webp",
+      "sameAs":[
+        "https://linktr.ee/nextpulsegames",
+        "https://x.com/NextPulseGames",
+        "https://www.youtube.com/@NextPulseGames",
+        "https://www.instagram.com/nextpulsegames/",
+        "https://www.tiktok.com/@nextpulsegames",
+        "https://ko-fi.com/nextpulsegames",
+        "https://buycoffee.to/nextpulsegames"
+      ]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"https://nextpulsegames.com/#website",
+      "url":"https://nextpulsegames.com/",
+      "name":"NextPulse Games",
+      "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+      "inLanguage":["en","pl"]
+    },
+    {
+      "@type":"VideoGame",
+      "@id":"https://nextpulsegames.com/#videogame",
+      "name":"Wolf And Eggs 3D",
+      "url":"https://nextpulsegames.com/pl/#game",
+      "image":"https://nextpulsegames.com/assets/screens/4.0-40-20261022/pl/02_catch_meadow.jpg",
+      "description":"Darmowa rodzinna gra zręcznościowa na Androida, tworzona przez jedną osobę w Godot Engine i Blenderze. Bez reklam i bez pay-to-win.",
+      "genre":["Arcade","Casual","Family"],
+      "applicationCategory":"Game",
+      "operatingSystem":"Android",
+      "publisher":{"@id":"https://nextpulsegames.com/#organization"},
+      "offers":{
+        "@type":"Offer",
+        "price":"0",
+        "priceCurrency":"PLN",
+        "availability":"https://schema.org/InStock",
+        "url":"https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d"
+      },
+      "inLanguage":["en","pl"],
+      "isAccessibleForFree":true
+    },
+    {
+      "@type":"WebPage",
+      "@id":"https://nextpulsegames.com/pl/#webpage",
+      "url":"https://nextpulsegames.com/pl/",
+      "name":"NextPulse Games | Wolf And Eggs 3D, darmowa gra bez reklam",
+      "inLanguage":"pl",
+      "isPartOf":{"@id":"https://nextpulsegames.com/#website"},
+      "about":{"@id":"https://nextpulsegames.com/#videogame"}
+    }
+  ]
+}</script>
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+
+<svg class="svg-sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></symbol>
+  <symbol id="i-gamepad" viewBox="0 0 24 24"><path d="M8 8h8a5 5 0 0 1 4.8 6.4l-1 3.4a2.6 2.6 0 0 1-4.4 1l-2-2.3h-2.8l-2 2.3a2.6 2.6 0 0 1-4.4-1l-1-3.4A5 5 0 0 1 8 8z"/><path d="M7 12v4M5 14h4M16 13h.01M18 15h.01"/></symbol>
+  <symbol id="i-ban" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m5.7 5.7 12.6 12.6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.7 2.9 8 7 10 4.1-2 7-5.3 7-10V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c.5-4 2.7-6 6-6s5.5 2 6 6M15 15c3 0 5 1.7 5.5 5"/></symbol>
+  <symbol id="i-run" viewBox="0 0 24 24"><circle cx="14" cy="5" r="2"/><path d="m11 9 3 2 2 4M14 11l-3 4-4 1M12 15l3 5M9 16l-2 4"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 9-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9z"/><path d="m4.5 7.8 7.5 4.3 7.5-4.3M12 12v9"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+  <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M4 8h12v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5z"/><path d="M16 10h2a3 3 0 0 1 0 6h-2M7 4v2M11 4v2"/></symbol>
+  <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.1.1l2-2a5 5 0 0 0-7.1-7.1l-1.1 1.1"/><path d="M14 11a5 5 0 0 0-7.1-.1l-2 2A5 5 0 0 0 12 20l1.1-1.1"/></symbol>
+  <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M21 8.2a2.8 2.8 0 0 0-2-2C17.2 5.7 12 5.7 12 5.7s-5.2 0-7 .5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2.5 12 29 29 0 0 0 3 15.8a2.8 2.8 0 0 0 2 2c1.8.5 7 .5 7 .5s5.2 0 7-.5a2.8 2.8 0 0 0 2-2 29 29 0 0 0 .5-3.8 29 29 0 0 0-.5-3.8z"/><path d="m10 9 5 3-5 3z"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M14 4v10.5a4.5 4.5 0 1 1-4-4.5"/><path d="M14 4c1 3 3 4.5 6 4.8"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="m5 4 14 16M19 4 5 20"/></symbol>
+</svg>
+
+<header class="site-header" id="top">
+  <div class="nav-wrap">
+    <a aria-label="Strona główna NextPulse Games" class="brand" href="#top">
+      <img alt="" height="52" src="/assets/brand-logo.webp?v=20261012" width="52"/>
+      <span>NextPulse <strong>Games</strong></span>
+    </a>
+    <nav aria-label="Główna nawigacja" class="nav-links">
+      <a href="#game">Gra</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#support">Wsparcie</a>
+      <a href="#studio">Studio</a>
+      <a href="#social">Obserwuj</a>
+    </nav>
+    <a aria-label="English version" class="lang-btn" href="/" hreflang="en" lang="en">EN</a>
+  </div>
+</header>
+
+<main id="main">
+  <section aria-labelledby="heroTitle" class="hero">
+    <div class="hero-brand-visual">
+      <img alt="NextPulse Games. Fun. Energy. Play." decoding="async" fetchpriority="high" height="1152" sizes="100vw" src="/assets/brand/nextpulse-20261027-1536.webp?v=20261027-2" srcset="/assets/brand/nextpulse-20261027-1024.webp?v=20261027-2 1024w, /assets/brand/nextpulse-20261027-1536.webp?v=20261027-2 1536w, /assets/brand/nextpulse-20261027-2048.webp?v=20261027-2 2048w" width="2048"/>
+    </div>
+    <div class="hero-content">
+      <div>
+        <span class="eyebrow">Niezależny projekt jednej osoby</span>
+        <h1 id="heroTitle">Wolf And Eggs 3D powstaje dla czystej, uczciwej zabawy</h1>
+        <p>Tworzę Wolf And Eggs 3D samodzielnie, z myślą o graczach, którzy chcą przyjaznej gry zręcznościowej bez ciągłych przerw i nacisku na zakupy. Gra jest darmowa na Androida, nie zawiera reklam i nie sprzedaje przewagi w rozgrywce.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d" rel="noopener noreferrer" target="_blank">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-play"/></svg>
+          Pobierz z Google Play
+        </a>
+        <a class="btn btn-secondary" href="#support">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-heart"/></svg>
+          Wesprzyj projekt
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Zasady projektu" class="trust-strip">
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-ban"/></svg>
+      <strong>Zero reklam</strong>
+      <small>Bez przerywania rozgrywki</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg>
+      <strong>Bez pay-to-win</strong>
+      <small>Wsparcie nie kupuje przewagi</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-users"/></svg>
+      <strong>Przyjazna rodzinie</strong>
+      <small>Prosta i dostępna rozgrywka</small>
+    </div>
+    <div class="trust-item">
+      <svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg>
+      <strong>Tworzona w Godot</strong>
+      <small>Modele i grafika 3D rozwijane w Blenderze</small>
+    </div>
+  </section>
+
+  <section class="section" id="game">
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="kicker">O grze</span>
+        <h2>Niewielka gra zręcznościowa, która stale się rozwija</h2>
+        <p>Wolf And Eggs 3D zaczyna się od prostego pomysłu: poruszaj bohaterem, łap jajka i poprawiaj swój najlepszy wynik. Wokół tej podstawy pojawiły się etapy runner, trwały świat, lokalny multiplayer Bluetooth oraz mini-gry, między innymi Memory i Warcaby 3D.</p>
+        <p>Gra jest projektowana wokół samej rozgrywki, a nie monetyzacji. Nie ma reklam przerywających zabawę ani płatnych ulepszeń decydujących o wyniku. Dobrowolne wsparcie jest po prostu sposobem, aby pomóc mi dalej rozwijać projekt.</p>
+        <a class="inline-link" href="https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d" rel="noopener noreferrer" target="_blank">
+          <svg class="ui-icon sm" aria-hidden="true"><use href="#i-play"/></svg>
+          Otwórz Wolf And Eggs 3D w Google Play
+        </a>
+      </div>
+      <div class="values-grid">
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-gamepad"/></svg>
+          <strong>Łapanie jajek</strong>
+          <p>Czterech bohaterów, różne scenerie, złote jajka i walka o wynik.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-run"/></svg>
+          <strong>Etapy runner</strong>
+          <p>Bonusowe sekwencje z torami, przeszkodami i zbieraniem jajek.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-users"/></svg>
+          <strong>Lokalny multiplayer</strong>
+          <p>Gracze w pobliżu mogą się połączyć i rywalizować we wspólnym rankingu.</p>
+        </article>
+        <article class="value-card">
+          <svg class="ui-icon lg" aria-hidden="true"><use href="#i-grid"/></svg>
+          <strong>Mini-gry</strong>
+          <p>Memory, Warcaby 3D i kolejne aktywności urozmaicają główną rozgrywkę.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="inner">
+      <div class="feature-grid">
+        <div class="video-shell">
+          <span class="preview-badge">Zwiastun rozgrywki</span>
+          <a aria-label="Odtwórz zwiastun Wolf And Eggs 3D" class="video-launch" data-title="Zwiastun Wolf And Eggs 3D" data-video="https://www.youtube-nocookie.com/embed/hMIvqi88Cwg?rel=0" href="https://www.youtube.com/watch?v=hMIvqi88Cwg" rel="noopener noreferrer" target="_blank">
+            <img alt="Rozgrywka Wolf And Eggs 3D nad morzem" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/04_catch_sea-960.webp" width="1920"/>
+            <span aria-hidden="true" class="video-play"><svg class="ui-icon"><use href="#i-play"/></svg></span>
+          </a>
+          <p class="video-note">Zwiastun i zrzuty poniżej pokazują rzeczywistą wersję gry.</p>
+        </div>
+        <div class="feature-copy">
+          <span class="kicker">Jak powstaje gra</span>
+          <h2>Najpierw rozgrywka, potem kolejna poprawka</h2>
+          <p>Wolf And Eggs 3D rozwijam krótkimi etapami. Buduję funkcję, testuję ją, poprawiam i zostawiam to, co faktycznie daje graczowi więcej czytelności albo zabawy.</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg>
+              <div><strong>Godot Engine</strong><small>Rozgrywka, menu, świat, multiplayer oraz kompilacje na Androida.</small></div>
+            </div>
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-cube"/></svg>
+              <div><strong>Blender</strong><small>Bohaterowie, obiekty i modele 3D przygotowywane do gry.</small></div>
+            </div>
+            <div class="feature-item">
+              <svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <div><strong>Uczciwe zasady</strong><small>Bez nacisku reklamowego i bez płatnej przewagi nad innymi graczami.</small></div>
+            </div>
+          </div>
+          <a class="indie-badge" href="https://polskieindyki.pl/pl/gra/wolf-and-eggs-3d" rel="noopener noreferrer" target="_blank">
+            <img alt="Wolf And Eggs 3D na PolskieIndyki.pl" height="20" loading="lazy" src="https://polskieindyki.pl/badges/gra/wolf-and-eggs-3d.svg" width="223"/>
+            Zobacz grę na PolskieIndyki.pl
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <div class="section-title-row">
+      <div>
+        <span class="kicker">Prawdziwe zrzuty z gry</span>
+        <h2>Zobacz aktualną wersję</h2>
+        <p class="section-lead">Menu, scenerie łapania jajek, świat oraz mini-gry z Wolf And Eggs 3D.</p>
+      </div>
+    </div>
+    <div class="shots">
+      <figure><a aria-label="Wybierz swoją przygodę, powiększ zrzut" data-shot="01_menu" href="/assets/screens/4.0-40-20261022/pl/01_menu.jpg"><img alt="Wybierz swoją przygodę" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/01_menu-960.webp" width="1920"/></a><figcaption>Wybierz swoją przygodę</figcaption></figure>
+      <figure><a aria-label="Łapanie jajek na łące, powiększ zrzut" data-shot="02_catch_meadow" href="/assets/screens/4.0-40-20261022/pl/02_catch_meadow.jpg"><img alt="Łapanie jajek na łące" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/02_catch_meadow-960.webp" width="1920"/></a><figcaption>Łapanie jajek na łące</figcaption></figure>
+      <figure><a aria-label="Łapanie jajek w lesie, powiększ zrzut" data-shot="03_catch_forest" href="/assets/screens/4.0-40-20261022/pl/03_catch_forest.jpg"><img alt="Łapanie jajek w lesie" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/03_catch_forest-960.webp" width="1920"/></a><figcaption>Łapanie jajek w lesie</figcaption></figure>
+      <figure><a aria-label="Łapanie jajek nad morzem, powiększ zrzut" data-shot="04_catch_sea" href="/assets/screens/4.0-40-20261022/pl/04_catch_sea.jpg"><img alt="Łapanie jajek nad morzem" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/04_catch_sea-960.webp" width="1920"/></a><figcaption>Łapanie jajek nad morzem</figcaption></figure>
+      <figure><a aria-label="Mini-gra Memory, powiększ zrzut" data-shot="05_memory" href="/assets/screens/4.0-40-20261022/pl/05_memory.jpg"><img alt="Mini-gra Memory" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/05_memory-960.webp" width="1920"/></a><figcaption>Mini-gra Memory</figcaption></figure>
+      <figure><a aria-label="Warcaby 3D, powiększ zrzut" data-shot="06_checkers" href="/assets/screens/4.0-40-20261022/pl/06_checkers.jpg"><img alt="Warcaby 3D" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/06_checkers-960.webp" width="1920"/></a><figcaption>Warcaby 3D</figcaption></figure>
+      <figure><a aria-label="Odkrywanie Zielonej Doliny, powiększ zrzut" data-shot="07_world_green" href="/assets/screens/4.0-40-20261022/pl/07_world_green.jpg"><img alt="Odkrywanie Zielonej Doliny" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/07_world_green-960.webp" width="1920"/></a><figcaption>Odkrywanie Zielonej Doliny</figcaption></figure>
+      <figure><a aria-label="Dopasowanie jajek, powiększ zrzut" data-shot="08_egg_matching" href="/assets/screens/4.0-40-20261022/pl/08_egg_matching.jpg"><img alt="Dopasowanie jajek" decoding="async" height="1080" loading="lazy" src="/assets/screens/4.0-40-20261022/pl/08_egg_matching-960.webp" width="1920"/></a><figcaption>Dopasowanie jajek</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="support-section" id="support">
+    <div class="inner">
+      <div class="support-intro">
+        <div>
+          <span class="kicker">Dobrowolne wsparcie</span>
+          <h2>Pomóż mi dalej rozwijać projekt</h2>
+          <p class="section-lead">Wolf And Eggs 3D jest darmowe i nie ma reklam. Wsparcie jest całkowicie dobrowolne i nie odblokowuje mocniejszych bohaterów, wyższych wyników ani żadnej przewagi w rozgrywce. Jeśli gra Ci się podoba, nawet niewielka wpłata pomaga pokryć narzędzia, opłaty sklepowe i kolejne aktualizacje.</p>
+        </div>
+        <aside class="support-note">
+          <strong>Bez pay-to-win</strong>
+          <p>Wsparcie NextPulse Games jest podziękowaniem dla twórcy, a nie zakupem przewagi w grze.</p>
+        </aside>
+      </div>
+
+      <div class="support-payments">
+        <article class="support-card">
+          <h3>BuyCoffee, PLN i BLIK</h3>
+          <p>Wygodna opcja dla osób w Polsce. Możesz wybrać jednorazową kwotę poniżej albo przejść do pełnej strony BuyCoffee.</p>
+          <div class="buycoffee-official">
+            <a href="https://buycoffee.to/nextpulsegames" rel="noopener noreferrer" target="_blank"><img src="https://buycoffee.to/static/img/share/share-button-primary--pl.png" style="width:351px;height:92px" alt="Postaw kawę dla NextPulse Games na buycoffee.to"/></a>
+          </div>
+          <div class="coffee-widget">
+            <div class="coffee-widget-head"><h4>Postaw kawę za:</h4></div>
+            <div class="coffee-options">
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=small" rel="noopener noreferrer" target="_blank" title="Postaw kawę za 10 zł"><img src="https://buycoffee.to/static/img/icons/coffee-small.svg" alt="Mała kawa"/><span>10 zł</span></a>
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=medium" rel="noopener noreferrer" target="_blank" title="Postaw kawę za 25 zł"><img src="https://buycoffee.to/static/img/icons/coffee-medium.svg" alt="Średnia kawa"/><span>25 zł</span></a>
+              <a class="coffee-option" href="https://buycoffee.to/nextpulsegames?coffeeSize=large" rel="noopener noreferrer" target="_blank" title="Postaw kawę za 50 zł"><img src="https://buycoffee.to/static/img/icons/coffee-large.svg" alt="Duża kawa"/><span>50 zł</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="support-card">
+          <h3>Ko-fi dla płatności międzynarodowych</h3>
+          <p>Ko-fi to wygodna opcja globalna. Przydaje się szczególnie osobom wspierającym projekt spoza Polski.</p>
+          <div class="support-links">
+            <a href="https://ko-fi.com/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-coffee"/></svg>Otwórz Ko-fi</a>
+            <a href="https://linktr.ee/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-link"/></svg>Wszystkie linki NextPulse</a>
+            <a href="https://cuplink.to/nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-link"/></svg>Płatności przez Cuplink</a>
+            <a href="https://buycoffee.to/nextpulsegames?tab=subs" rel="noopener noreferrer" target="_blank"><svg class="ui-icon sm" aria-hidden="true"><use href="#i-heart"/></svg>Subskrypcja BuyCoffee</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="qr-heading">
+        <span class="kicker">Skanuj drugim urządzeniem</span>
+        <h2>Szybkie linki w kodach QR</h2>
+      </div>
+      <div class="qr-grid">
+        <article class="qr-card">
+          <img alt="Kod QR prowadzący do Wolf And Eggs 3D w Google Play" loading="lazy" src="/assets/qr/google-play.png"/>
+          <strong>Zagraj w Wolf And Eggs 3D w Google Play</strong>
+          <small>Bezpośredni link do strony gry</small>
+        </article>
+        <article class="qr-card">
+          <img alt="Kod QR prowadzący do NextPulse Games na Ko-fi" loading="lazy" src="/assets/qr/kofi.png"/>
+          <strong>Wesprzyj twórcę na Ko-fi (Płatności międzynarodowe)</strong>
+          <small>Wsparcie globalne</small>
+        </article>
+        <article class="qr-card">
+          <img alt="Kod QR prowadzący do NextPulse Games na BuyCoffee" loading="lazy" src="/assets/qr/buycoffee.png"/>
+          <strong>Szybkie wsparcie BLIK na BuyCoffee.to</strong>
+          <small>PLN i BLIK</small>
+        </article>
+        <article class="qr-card">
+          <img alt="Kod QR prowadzący do subskrypcji BuyCoffee" loading="lazy" src="/assets/qr/buycoffee-subscription.png"/>
+          <strong>Regularne wsparcie przez BuyCoffee</strong>
+          <small>Link z załączonego kodu subskrypcji</small>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="studio" id="studio">
+    <div class="inner studio-grid">
+      <div class="studio-logo"><img alt="Logo NextPulse Games" height="512" loading="lazy" src="/assets/brand-logo.webp?v=20261012" width="512"/></div>
+      <div class="studio-copy">
+        <span class="kicker">O NextPulse Games</span>
+        <h2>Jedna osoba, od pierwszego prototypu po każdą aktualizację</h2>
+        <p>NextPulse Games to jednoosobowy projekt. Wolf And Eggs 3D projektuję, programuję, testuję i rozwijam samodzielnie. Godot Engine odpowiada za grę, a Blender pomaga przy modelach i pracy 3D. Cel jest prosty: tworzyć rodzinne gry, które dobrze się gra, bez budowania doświadczenia wokół reklam i zakupów pay-to-win.</p>
+        <p>Projekt poprawiam na podstawie testów i opinii graczy. Nowe funkcje trafiają do gry wtedy, kiedy rzeczywiście poprawiają czytelność, różnorodność albo zwyczajnie dają więcej frajdy.</p>
+        <div class="studio-points">
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-code"/></svg><strong>Rozwój w Godot Engine</strong></div>
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-cube"/></svg><strong>Praca 3D w Blenderze</strong></div>
+          <div class="studio-point"><svg class="ui-icon" aria-hidden="true"><use href="#i-shield"/></svg><strong>Za darmo, bez reklam i uczciwie</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section social" id="social">
+    <div class="section-title-row">
+      <div>
+        <span class="kicker">Obserwuj rozwój</span>
+        <h2>Aktualizacje, rozgrywka i kulisy pracy</h2>
+        <p class="section-lead">Na kanałach NextPulse Games publikuję nowe wersje, krótkie fragmenty rozgrywki, postępy prac i informacje o kolejnych projektach.</p>
+      </div>
+    </div>
+    <div class="social-grid">
+      <a aria-label="NextPulse Games na X" href="https://x.com/NextPulseGames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-x"/></svg><strong>X</strong><small>@NextPulseGames</small></a>
+      <a aria-label="NextPulse Games na YouTube" href="https://www.youtube.com/@NextPulseGames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-youtube"/></svg><strong>YouTube</strong><small>@NextPulseGames</small></a>
+      <a aria-label="NextPulse Games na Instagramie" href="https://www.instagram.com/nextpulsegames/" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-instagram"/></svg><strong>Instagram</strong><small>@nextpulsegames</small></a>
+      <a aria-label="NextPulse Games na TikToku" href="https://www.tiktok.com/@nextpulsegames" rel="noopener noreferrer" target="_blank"><svg class="ui-icon lg" aria-hidden="true"><use href="#i-tiktok"/></svg><strong>TikTok</strong><small>@nextpulsegames</small></a>
+    </div>
+  </section>
+</main>
+
+<dialog aria-label="Podgląd zrzutu ekranu" class="shot-lightbox" id="screenshotLightbox">
+  <button aria-label="Zamknij zrzut" class="shot-lightbox-close" id="shotLightboxClose" type="button">×</button>
+  <button aria-label="Poprzedni zrzut" class="shot-lightbox-nav shot-lightbox-prev" id="shotLightboxPrev" type="button">‹</button>
+  <figure class="shot-lightbox-figure">
+    <img alt="" id="shotLightboxImage"/>
+    <figcaption aria-live="polite" id="shotLightboxCaption"></figcaption>
+  </figure>
+  <button aria-label="Następny zrzut" class="shot-lightbox-nav shot-lightbox-next" id="shotLightboxNext" type="button">›</button>
+</dialog>
+
+<aside class="kofi-footer-widget" aria-label="Widżet wsparcia Ko-fi">
+  <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+  <script type="text/javascript">kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'C1Q829SAK6');kofiwidget2.draw();</script>
+</aside>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><img alt="" height="42" src="/assets/brand-logo.webp?v=20261012" width="42"/><span>NextPulse Games</span></div>
+    <div class="footer-links">
+      <a href="/pl/privacy.html">Polityka prywatności</a>
+      <a href="https://linktr.ee/nextpulsegames" rel="noopener noreferrer" target="_blank">Linktree</a>
+      <a href="https://buycoffee.to/nextpulsegames" rel="noopener noreferrer" target="_blank">BuyCoffee</a>
+      <a href="https://cuplink.to/nextpulsegames" rel="noopener noreferrer" target="_blank">Cuplink</a>
+      <a href="https://ko-fi.com/nextpulsegames" rel="noopener noreferrer" target="_blank">Ko-fi</a>
+      <a href="mailto:nextpulsegames@gmail.com">nextpulsegames@gmail.com</a>
+    </div>
+  </div>
+  <div class="footer-meta">
+    <span>Wolf And Eggs 3D: za darmo, zero reklam, bez pay-to-win.</span>
+    <span>© <span id="year">2026</span> NextPulse Games. Wszelkie prawa zastrzeżone.</span>
+  </div>
+</footer>
+
+<script defer src="/app.js?v=20261031-1"></script>
+<script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+<script>
+  kofiWidgetOverlay.draw('nextpulsegames', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#00b9fe',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+</body>
+</html>
+
+
+========================================================================================
+FILE: styles.css
+========================================================================================
+
+:root {
+  --navy:#06183f;
+  --navy-2:#0a2458;
+  --cyan:#16c7ff;
+  --lime:#a6ef22;
+  --gold:#ffd04c;
+  --ink:#123447;
+  --muted:#526b78;
+  --line:#d7e4ea;
+  --soft:#f4f8fa;
+  --soft-green:#edf8ef;
+  --white:#ffffff;
+  --max:1220px;
+  --radius:18px;
+  --shadow:0 18px 50px rgba(6,24,63,.10);
+}
+*{box-sizing:border-box;letter-spacing:0}
+html{scroll-behavior:smooth;scroll-padding-top:92px}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.62}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto}
+button,a{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid #00748e;outline-offset:4px}
+.skip{position:fixed;top:8px;left:12px;transform:translateY(-160%);z-index:300;background:#fff;color:#06183f;padding:10px 16px;border-radius:8px}
+.skip:focus{transform:none}
+.svg-sprite{position:absolute;width:0;height:0;overflow:hidden}
+.ui-icon{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+.ui-icon.sm{width:18px;height:18px}
+.ui-icon.lg{width:30px;height:30px}
+.site-header{position:sticky;top:0;z-index:120;background:rgba(6,24,63,.97);color:#fff;border-bottom:1px solid rgba(255,255,255,.09);backdrop-filter:blur(12px)}
+.nav-wrap{max-width:var(--max);min-height:72px;margin:auto;padding:8px 24px;display:flex;align-items:center;gap:22px}
+.brand{display:flex;align-items:center;gap:10px;margin-right:auto;font-weight:850}
+.brand img{width:44px;height:44px;object-fit:contain}
+.brand strong{color:var(--lime)}
+.nav-links{display:flex;gap:20px;align-items:center}
+.nav-links a{font-size:14px;font-weight:750;min-height:44px;display:flex;align-items:center}
+.nav-links a:hover{color:var(--lime)}
+.lang-btn{display:grid;place-items:center;min-width:48px;min-height:44px;border:1px solid #60748c;border-radius:9px;font-weight:800}
+.hero{background:#020d2d;color:#fff;padding-bottom:34px}
+.hero-brand-visual{width:100%;max-width:none;height:clamp(230px,19vw,340px);margin:0;overflow:hidden;background:#020d2d}
+.hero-brand-visual img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center}
+.hero-content{max-width:var(--max);margin:0 auto;padding:30px 24px 4px;display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:44px;align-items:center}
+.eyebrow,.kicker{font-size:12px;font-weight:850;text-transform:uppercase;letter-spacing:.08em;color:#006c88}
+.hero .eyebrow{color:#9ce9ff}
+h1,h2,h3{letter-spacing:-.025em;text-wrap:balance}
+h1{font-size:42px;line-height:1.12;margin:8px 0 16px}
+h2{font-size:36px;line-height:1.15;margin:8px 0 14px}
+h3{font-size:24px;line-height:1.25;margin:0 0 12px}
+.hero-content p{font-size:17px;color:#dce8f5;margin:0;max-width:760px}
+.hero-actions{display:grid;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:52px;padding:12px 20px;border-radius:10px;font-weight:800;text-align:center;line-height:1.35}
+.btn-primary{background:var(--lime);color:#173100}
+.btn-primary:hover{background:#b9ff44}
+.btn-secondary{background:#e5f8ff;color:var(--ink)}
+.btn-ghost{border:1px solid #aac1cc;background:#fff;color:var(--ink)}
+.btn-dark{background:var(--navy);color:#fff}
+.btn-wide{width:100%}
+.trust-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:var(--max);margin:auto;padding:26px 24px;border-bottom:1px solid var(--line)}
+.trust-item{display:grid;grid-template-columns:auto 1fr;column-gap:12px;align-items:center}
+.trust-item .ui-icon{grid-row:1 / 3;color:#08728b}
+.trust-item strong{font-size:14px}
+.trust-item small{line-height:1.35;color:var(--muted)}
+.section{max-width:var(--max);margin:auto;padding:66px 24px}
+.section.alt{max-width:none;background:var(--soft)}
+.section.alt>.inner,.studio>.inner,.support-section>.inner{max-width:var(--max);margin:auto}
+.section-title-row{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:30px}
+.section-lead{color:var(--muted);max-width:790px;margin:12px 0 0}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:38px;align-items:start}
+.about-copy p{color:var(--muted);margin:0 0 16px}
+.values-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.value-card{border:1px solid var(--line);border-radius:14px;padding:20px;background:#fff}
+.value-card .ui-icon{color:#08728b;margin-bottom:12px}
+.value-card strong{display:block;margin-bottom:4px}
+.value-card p{font-size:14px;margin:0;color:var(--muted)}
+.feature-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:start}
+.video-shell{min-width:0}
+.video-launch{position:relative;display:block;margin-top:12px;border-radius:14px;overflow:hidden;aspect-ratio:16 / 9;background:var(--navy)}
+.video-launch img{width:100%;height:100%;object-fit:cover}
+.video-play{position:absolute;inset:0;margin:auto;width:66px;height:66px;display:grid;place-items:center;background:#06183fee;color:#fff;border:2px solid #fff;border-radius:50%}
+.video-play .ui-icon{width:30px;height:30px;margin-left:3px}
+.video-launch:hover .video-play{background:#006d85}
+.video-shell iframe{width:100%;aspect-ratio:16 / 9;display:block;border:0;background:var(--navy);margin-top:12px;border-radius:14px}
+.preview-badge{display:inline-block;font-size:12px;color:#255565;font-weight:750;padding:5px 0}
+.video-note{font-size:13px;color:var(--muted)}
+.feature-copy>p{color:var(--muted)}
+.feature-list{display:grid;gap:14px;margin:24px 0}
+.feature-item{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:14px;border:1px solid var(--line);border-radius:12px;background:#fff}
+.feature-item .ui-icon{color:#08728b;margin-top:2px}
+.feature-item strong{font-size:14px}
+.feature-item small{display:block;color:var(--muted);font-size:13px;line-height:1.45}
+.inline-link{color:#006880;text-decoration:underline;text-underline-offset:4px;font-weight:750;min-height:44px;display:inline-flex;align-items:center;gap:8px}
+.indie-badge{display:flex;flex-direction:column;align-items:flex-start;gap:6px;width:fit-content;margin-top:12px;font-size:13px;color:#006880;text-decoration:underline;text-underline-offset:3px}
+.indie-badge img{width:223px;height:20px;object-fit:contain}
+.gallery{border-top:1px solid var(--line)}
+.shots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}
+.shots figure{margin:0;min-width:0}
+.shots a{display:block;border-radius:12px}
+.shots img{width:100%;aspect-ratio:16 / 9;object-fit:cover;background:#e4f0eb;border-radius:12px;border:1px solid var(--line)}
+.shots a:hover img{border-color:#00768e}
+.shots figcaption{font-size:14px;font-weight:700;padding-top:9px}
+.support-section{max-width:none;background:linear-gradient(180deg,#06183f 0%,#0a2458 100%);color:#fff;padding:70px 24px}
+.support-section .kicker{color:#9ce9ff}
+.support-section .section-lead{color:#d6e5ec}
+.support-intro{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:38px;align-items:start;margin-bottom:34px}
+.support-note{border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:20px;background:rgba(255,255,255,.06)}
+.support-note p{margin:0;color:#d6e5ec;font-size:14px}
+.support-note strong{display:block;margin-bottom:5px;color:#fff}
+.support-payments{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;margin:28px 0 36px}
+.support-card{background:#fff;color:var(--ink);border-radius:16px;padding:24px;box-shadow:var(--shadow)}
+.support-card h3{font-size:21px}
+.support-card p{color:var(--muted)}
+.buycoffee-official{display:flex;justify-content:center;margin:18px 0}
+.buycoffee-official img{max-width:351px;width:100%;height:auto}
+.coffee-widget{width:100%;max-width:600px;margin:18px auto 0;font-family:Arial,sans-serif}
+.coffee-widget-head{background:#fff;padding:14px;border-radius:14px;text-align:center;color:#000000de;border:1px solid #e5e8ea}
+.coffee-widget-head h4{font-size:15px;font-weight:700;line-height:1.5;margin:0}
+.coffee-options{display:flex;gap:8px;margin-top:10px;justify-content:center}
+.coffee-option{display:flex;flex-direction:column;justify-content:center;align-items:center;padding:14px;border-radius:14px;border:1px solid #e5e8ea;width:100%;text-align:center;background:#fff;color:#000000de;text-decoration:none}
+.coffee-option:hover{border-color:#8fb9ca;box-shadow:0 8px 24px rgba(6,24,63,.08)}
+.coffee-option img{width:34px;height:34px}
+.coffee-option span{font-size:15px;font-weight:800;margin-top:7px}
+.support-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}
+.support-links a{display:flex;align-items:center;gap:9px;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-weight:750}
+.support-links a:hover{background:var(--soft)}
+.qr-heading{margin-top:44px}
+.qr-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.qr-card{background:#fff;color:var(--ink);border-radius:16px;padding:18px;text-align:center}
+.qr-card img{width:100%;max-width:260px;aspect-ratio:1;border-radius:14px;margin:0 auto 14px;background:#fff}
+.qr-card strong{display:block;font-size:15px;line-height:1.35}
+.qr-card small{display:block;color:var(--muted);margin-top:5px}
+.studio{max-width:none;background:var(--soft-green);padding:70px 24px}
+.studio-grid{display:grid;grid-template-columns:230px 1fr;gap:50px;align-items:center}
+.studio-logo img{width:210px}
+.studio-copy p{color:var(--muted);max-width:850px}
+.studio-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:20px}
+.studio-point{border:1px solid #cfe4d3;border-radius:12px;padding:15px;background:#fff}
+.studio-point .ui-icon{color:#2f7f4d;margin-bottom:8px}
+.studio-point strong{display:block;font-size:14px}
+.social-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.social-grid a{display:flex;flex-direction:column;align-items:center;padding:24px 8px;gap:8px;border:1px solid var(--line);border-radius:14px}
+.social-grid a:hover{background:#eff9fc}
+.social-grid .ui-icon{color:#006880}
+.social-grid small{font-size:12px;color:var(--muted)}
+.kofi-footer-widget{background:#0a2458;color:#fff;padding:22px 24px;text-align:center;border-top:1px solid rgba(255,255,255,.08)}
+.kofi-footer-widget a{display:inline-block}
+.footer{background:var(--navy);color:#dce8f5;padding:34px 24px}
+.footer-inner{max-width:var(--max);margin:auto;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}
+.footer-brand{display:flex;align-items:center;gap:12px;font-weight:800}
+.footer-brand img{width:42px;height:42px}
+.footer-links{display:flex;gap:16px 20px;flex-wrap:wrap;justify-content:flex-end}
+.footer a{text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.footer-meta{max-width:var(--max);margin:22px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.13);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:#afc3ce}
+.shot-lightbox{position:fixed;inset:0;width:100%;max-width:none;height:100%;max-height:none;margin:0;border:0;padding:72px 76px;background:#081528f5;color:#fff}
+.shot-lightbox[open]{display:flex;align-items:center;justify-content:center}
+.shot-lightbox::backdrop{background:#071322e8}
+.shot-lightbox-figure{margin:0;max-width:1600px;display:flex;flex-direction:column;align-items:center;gap:14px}
+.shot-lightbox-figure img{width:auto;max-width:100%;max-height:calc(100dvh - 180px);object-fit:contain;border-radius:8px}
+.shot-lightbox-figure figcaption{font-size:14px;text-align:center}
+.shot-lightbox button{position:absolute;border:1px solid #8ca7bc;background:#1c384e;color:#fff;width:48px;height:48px;border-radius:8px;display:grid;place-items:center;font-size:32px;line-height:1}
+.shot-lightbox-close{top:16px;right:18px}
+.shot-lightbox-prev{left:16px;top:calc(50% - 24px)}
+.shot-lightbox-next{right:16px;top:calc(50% - 24px)}
+.lightbox-open{overflow:hidden}
+.legal{max-width:900px;min-height:70vh}
+.legal p{max-width:70ch}
+.legal h2{font-size:24px;margin-top:32px}
+.error-page{min-height:70vh;max-width:760px}
+.error-page .error-code{font-size:72px;font-weight:800;color:#00738a;margin:0}
+@media(max-width:1040px){
+  .qr-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .studio-points{grid-template-columns:1fr}
+}
+@media(max-width:960px){
+  .hero-content{grid-template-columns:1fr;gap:22px}
+  .hero-actions{grid-template-columns:1fr 1fr}
+  .about-grid,.feature-grid,.support-intro,.support-payments{grid-template-columns:1fr}
+  .trust-strip{grid-template-columns:1fr 1fr}
+  .studio-grid{grid-template-columns:160px 1fr;gap:30px}
+  .social-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:720px){
+  html{scroll-padding-top:122px}
+  .nav-wrap{padding:8px 18px;gap:8px 16px;flex-wrap:wrap}
+  .brand{font-size:14px}
+  .brand img{width:36px;height:36px}
+  .nav-links{order:3;width:100%;justify-content:space-between;gap:8px}
+  .nav-links a{font-size:12px}
+  .section{padding:46px 18px}
+  .hero-brand-visual{height:220px}
+  .hero-content{padding:24px 18px 0}
+  h1{font-size:30px}
+  h2{font-size:29px}
+  .hero-content p{font-size:15px}
+  .hero-actions{grid-template-columns:1fr}
+  .trust-strip{padding:24px 18px;gap:20px 14px}
+  .values-grid{grid-template-columns:1fr}
+  .shots{grid-template-columns:1fr;gap:24px}
+  .support-section,.studio{padding:50px 18px}
+  .coffee-options{flex-direction:column}
+  .support-links{grid-template-columns:1fr}
+  .qr-grid{grid-template-columns:1fr}
+  .studio-grid{grid-template-columns:1fr;gap:20px}
+  .studio-logo img{width:110px}
+  .social-grid small{font-size:11px;overflow-wrap:anywhere}
+  .footer-inner{grid-template-columns:1fr}
+  .footer-links{justify-content:flex-start}
+  .shot-lightbox{padding:70px 12px 110px}
+  .shot-lightbox-figure img{max-height:calc(100dvh - 250px)}
+  .shot-lightbox-prev,.shot-lightbox-next{top:auto;bottom:22px}
+  .shot-lightbox-prev{left:calc(50% - 62px)}
+  .shot-lightbox-next{right:calc(50% - 62px)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+========================================================================================
+FILE: app.js
+========================================================================================
+
+// Language and media are served in the HTML, never selected from stored preferences.
+(() => {
+  document.querySelectorAll('a[data-video]').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      const frame = document.createElement('iframe');
+      frame.id = 'gameTrailer';
+      frame.src = `${link.dataset.video}&autoplay=1`;
+      frame.title = link.dataset.title;
+      frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      frame.referrerPolicy = 'strict-origin-when-cross-origin';
+      frame.allowFullscreen = true;
+      link.replaceWith(frame);
+      frame.focus();
+    });
+  });
+  const dialog = document.getElementById('screenshotLightbox');
+  const shots = Array.from(document.querySelectorAll('.shots a[data-shot]'));
+  if (!dialog || !shots.length || typeof dialog.showModal !== 'function') return;
+  const image = document.getElementById('shotLightboxImage');
+  const caption = document.getElementById('shotLightboxCaption');
+  const close = document.getElementById('shotLightboxClose');
+  let index = 0;
+  let opener;
+
+  function show(next) {
+    index = (next + shots.length) % shots.length;
+    const shot = shots[index];
+    image.src = shot.href;
+    image.alt = shot.querySelector('img').alt;
+    caption.textContent = `${image.alt} · ${index + 1} / ${shots.length}`;
+    if (!dialog.open) {
+      dialog.showModal();
+      document.body.classList.add('lightbox-open');
+      close.focus();
+    }
+  }
+
+  shots.forEach((shot, i) => shot.addEventListener('click', event => {
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    opener = shot;
+    show(i);
+  }));
+  close.addEventListener('click', () => dialog.close());
+  document.getElementById('shotLightboxPrev').addEventListener('click', () => show(index - 1));
+  document.getElementById('shotLightboxNext').addEventListener('click', () => show(index + 1));
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => {
+    document.body.classList.remove('lightbox-open');
+    image.removeAttribute('src');
+    opener?.focus({preventScroll: true});
+  });
+  dialog.addEventListener('keydown', event => {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault();
+      show(index + (event.key === 'ArrowLeft' ? -1 : 1));
+    }
+    if (event.key === 'Tab') {
+      const controls = Array.from(dialog.querySelectorAll('button'));
+      const first = controls[0], last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    }
+  });
+})();
+
+
+========================================================================================
+FILE: llm.txt
+========================================================================================
+
+# NextPulse Games - Wolf And Eggs 3D
+Independent one-person game studio focusing on family-friendly, ad-free mobile games built with Godot Engine and Blender.
+
+## Main Project: Wolf And Eggs 3D
+- Platform: Android (Google Play)
+- Business Model: 100% Free, Zero Ads, No Pay-to-Win.
+- Gameplay: 3D arcade egg-catching adventure, local Bluetooth multiplayer, runner stages, built-in mini-games (Checkers, Memory).
+- Support options: BuyCoffee (PLN/BLIK), Ko-fi (Global).
+
+
+========================================================================================
+FILE: privacy.html
+========================================================================================
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Policy  -  NextPulse Games</title>
+  <meta name="description" content="Privacy information for the NextPulse Games website, external services and contact.">
+  <link rel="canonical" href="https://nextpulsegames.com/privacy.html">
+  <link rel="alternate" hreflang="en" href="https://nextpulsegames.com/privacy.html">
+  <link rel="alternate" hreflang="pl" href="https://nextpulsegames.com/pl/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://nextpulsegames.com/privacy.html">
+  <meta name="theme-color" content="#06183f"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=20261022-1">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="nav-wrap"><a class="brand" href="/"><img src="/assets/brand-logo.webp" alt="" width="44" height="44"><span>NextPulse <strong>Games</strong></span></a><a class="lang-btn" href="/pl/privacy.html" lang="pl" hreflang="pl" aria-label="Polska wersja">PL</a></div></header>
+<main class="section legal" id="main">
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> 22 October 2026</p>
+  <p>This website is a static informational website for NextPulse Games. It does not create user accounts, display advertising or intentionally collect personal information through forms.</p>
+  <h2>External services</h2>
+  <p>The website links to Google Play, YouTube, X, Instagram, TikTok, PolskieIndyki.pl, Linktree, Cuplink, BuyCoffee and Ko-fi. Embedded videos are served by YouTube using its privacy-enhanced domain. The PolskieIndyki.pl badge, BuyCoffee images and Ko-fi support widgets are loaded from those external services. Your browser may contact these services when their embedded content or widgets load. Their own privacy policies, payment terms and cookie practices apply.</p>
+  <h2>Contact</h2>
+  <p>If you contact NextPulse Games by email, the information you provide is used only to respond to your message and handle the matter you contacted us about.</p>
+  <p><a class="inline-link" href="mailto:nextpulsegames@gmail.com">nextpulsegames@gmail.com</a></p>
+  <h2>Game privacy</h2>
+  <p>The game's privacy information is separate from this website policy.</p>
+  <p><a class="inline-link" href="https://sites.google.com/view/wolf-and-eggs-3d-privacy/">Wolf And Eggs 3D privacy policy</a></p>
+  <p><a class="btn btn-primary" href="/">Back to NextPulse Games</a></p>
+</main>
+<footer class="footer"><p>© 2026 NextPulse Games.</p></footer>
+</body></html>
+
+
+========================================================================================
+FILE: pl/privacy.html
+========================================================================================
+
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Polityka prywatności  -  NextPulse Games</title>
+  <meta name="description" content="Prywatność w witrynie NextPulse Games: serwisy zewnętrzne i kontakt.">
+  <link rel="canonical" href="https://nextpulsegames.com/pl/privacy.html">
+  <link rel="alternate" hreflang="en" href="https://nextpulsegames.com/privacy.html">
+  <link rel="alternate" hreflang="pl" href="https://nextpulsegames.com/pl/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://nextpulsegames.com/privacy.html">
+  <meta name="theme-color" content="#06183f"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=20261022-1">
+</head>
+<body>
+<a class="skip" href="#main">Przejdź do treści</a>
+<header class="site-header"><div class="nav-wrap"><a class="brand" href="/pl/"><img src="/assets/brand-logo.webp" alt="" width="44" height="44"><span>NextPulse <strong>Games</strong></span></a><a class="lang-btn" href="/privacy.html" lang="en" hreflang="en" aria-label="English version">EN</a></div></header>
+<main class="section legal" id="main">
+  <h1>Polityka prywatności</h1>
+  <p><strong>Ostatnia aktualizacja:</strong> 22 października 2026</p>
+  <p>To statyczna witryna informacyjna NextPulse Games. Nie tworzy kont użytkowników, nie wyświetla reklam ani nie zbiera celowo danych osobowych za pomocą formularzy.</p>
+  <h2>Serwisy zewnętrzne</h2>
+  <p>Witryna zawiera odnośniki do Google Play, YouTube, X, Instagrama, TikToka, PolskieIndyki.pl, Linktree, Cuplink, BuyCoffee i Ko-fi. Osadzone filmy są udostępniane przez YouTube w trybie zwiększonej prywatności. Odznaka PolskieIndyki.pl, grafiki BuyCoffee oraz widżety wsparcia Ko-fi są ładowane z tych zewnętrznych usług. Podczas ładowania osadzonych treści lub widżetów przeglądarka może łączyć się z tymi usługami. Obowiązują w nich ich własne zasady prywatności, warunki płatności i plików cookie.</p>
+  <h2>Kontakt</h2>
+  <p>Informacje przesłane w wiadomości e-mail do NextPulse Games służą wyłącznie do udzielenia odpowiedzi i obsługi sprawy, z którą się kontaktujesz.</p>
+  <p><a class="inline-link" href="mailto:nextpulsegames@gmail.com">nextpulsegames@gmail.com</a></p>
+  <h2>Prywatność w grze</h2>
+  <p>Informacje o prywatności w grze są odrębne od zasad dotyczących tej witryny.</p>
+  <p><a class="inline-link" href="https://sites.google.com/view/wolf-and-eggs-3d-privacy/">Polityka prywatności Wolf And Eggs 3D</a></p>
+  <p><a class="btn btn-primary" href="/pl/">Powrót do NextPulse Games</a></p>
+</main>
+<footer class="footer"><p>© 2026 NextPulse Games.</p></footer>
+</body></html>
+
+
+========================================================================================
+FILE: 404.html
+========================================================================================
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Page not found / Nie znaleziono strony  -  NextPulse Games</title>
+  <meta name="theme-color" content="#06183f">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css?v=20261022-1">
+</head>
+<body>
+  <header class="site-header"><div class="nav-wrap"><a class="brand" href="/"><img src="/assets/brand-logo.webp" width="44" height="44" alt=""><span>NextPulse <strong>Games</strong></span></a></div></header>
+  <main class="section error-page">
+    <p class="error-code">404</p>
+    <h1>Page not found</h1>
+    <p>This address does not lead to a page. Choose your language to return to NextPulse Games.</p>
+    <p lang="pl">Nie znaleziono strony pod tym adresem. Wybierz język, aby wrócić do NextPulse Games.</p>
+    <a class="btn btn-primary" href="/" lang="en">English home</a>
+    <a class="btn btn-secondary" href="/pl/" lang="pl">Polska strona główna</a>
+  </main>
+</body>
+</html>
+
+
+========================================================================================
+FILE: robots.txt
+========================================================================================
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nextpulsegames.com/sitemap.xml
+
+
+========================================================================================
+FILE: sitemap.xml
+========================================================================================
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nextpulsegames.com/</loc>\n    <lastmod>2026-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nextpulsegames.com/privacy.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://nextpulsegames.com/pl/</loc>\n    <lastmod>2026-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://nextpulsegames.com/pl/privacy.html</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+</urlset>
+
+
+========================================================================================
+FILE: site.webmanifest
+========================================================================================
+
+{
+  "name": "NextPulse Games",
+  "short_name": "NextPulse",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#06183f",
+  "theme_color": "#06183f",
+  "icons": [
+    {"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"},
+    {"src":"assets/favicon-32.png","sizes":"32x32","type":"image/png","purpose":"any"}
+  ]
+}
+
+========================================================================================
+FILE: CNAME
+========================================================================================
+
+nextpulsegames.com
