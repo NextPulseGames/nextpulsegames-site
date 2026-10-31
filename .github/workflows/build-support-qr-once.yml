@@ -1,0 +1,116 @@
+name: Build support QR assets once
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-support-qr-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image tools
+        run: python -m pip install --disable-pip-version-check pillow qrcode
+
+      - name: Create branded QR assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import qrcode
+          from qrcode.constants import ERROR_CORRECT_H
+          from PIL import Image, ImageDraw
+
+          outdir = Path("assets/qr")
+          outdir.mkdir(parents=True, exist_ok=True)
+
+          brand = Image.open("assets/brand-logo.webp").convert("RGBA")
+
+          def rounded_badge(size, fill="white"):
+              badge = Image.new("RGBA", (size, size), (0,0,0,0))
+              d = ImageDraw.Draw(badge)
+              r = max(10, size // 8)
+              d.rounded_rectangle((0,0,size-1,size-1), radius=r, fill=fill)
+              return badge
+
+          def brand_badge(size):
+              badge = rounded_badge(size)
+              logo = brand.copy()
+              margin = max(8, size // 12)
+              logo.thumbnail((size - margin*2, size - margin*2), Image.Resampling.LANCZOS)
+              x = (size - logo.width)//2
+              y = (size - logo.height)//2
+              badge.alpha_composite(logo, (x,y))
+              return badge
+
+          def kofi_badge(size):
+              badge = Image.new("RGBA", (size,size), (0,0,0,0))
+              d = ImageDraw.Draw(badge)
+              d.ellipse((0,0,size-1,size-1), fill="#72a4f2")
+              cup_left = int(size*.22); cup_top = int(size*.30)
+              cup_right = int(size*.72); cup_bottom = int(size*.70)
+              d.rounded_rectangle((cup_left,cup_top,cup_right,cup_bottom), radius=int(size*.08), fill="white")
+              d.arc((int(size*.62),int(size*.36),int(size*.88),int(size*.62)), start=270, end=90, fill="white", width=max(4,int(size*.07)))
+              cx,cy=int(size*.47),int(size*.49); s=int(size*.12)
+              heart=[(cx,cy+s),(cx-s*2,cy-s//2),(cx-s,cy-s*2),(cx,cy-s),(cx+s,cy-s*2),(cx+s*2,cy-s//2)]
+              d.polygon(heart, fill="#ff5a36")
+              return badge
+
+          def make_qr(url, path, badge):
+              qr=qrcode.QRCode(
+                  version=None,
+                  error_correction=ERROR_CORRECT_H,
+                  box_size=12,
+                  border=5,
+              )
+              qr.add_data(url)
+              qr.make(fit=True)
+              img=qr.make_image(fill_color="black", back_color="white").convert("RGBA")
+              img=img.resize((1000,1000), Image.Resampling.NEAREST)
+              badge_size=210
+              badge=badge(badge_size)
+              x=(img.width-badge_size)//2
+              y=(img.height-badge_size)//2
+              img.alpha_composite(badge,(x,y))
+              img.convert("RGB").save(path, "PNG", optimize=True)
+
+          make_qr(
+              "https://play.google.com/store/apps/details?id=com.nextpulsegames.wolfandeggs3d",
+              outdir/"google-play.png",
+              brand_badge,
+          )
+          make_qr(
+              "https://ko-fi.com/nextpulsegames",
+              outdir/"kofi.png",
+              kofi_badge,
+          )
+          make_qr(
+              "https://buycoffee.to/nextpulsegames",
+              outdir/"buycoffee.png",
+              brand_badge,
+          )
+          make_qr(
+              "https://buycoffee.to/nextpulsegames?tab=subs",
+              outdir/"buycoffee-subscription.png",
+              brand_badge,
+          )
+          PY
+
+      - name: Commit QR assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/qr
+          git commit -m "Add support and Google Play QR assets"
+          git push
