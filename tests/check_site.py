@@ -34,7 +34,7 @@ class SiteTests(unittest.TestCase):
             self.assertEqual(alternates['x-default'],alternates['en'])
             self.assertFalse(doc.attrs('meta',**{'http-equiv':'refresh'}))
     def test_complete_initial_html(self):
-        for file, title, heading in [('index.html','NextPulse Games — Wolf And Eggs 3D, Free & Ad-Free','Wolf And Eggs 3D — a free family arcade game'),('pl/index.html','NextPulse Games — Wolf And Eggs 3D, gra bez reklam','Wolf And Eggs 3D — darmowa gra zręcznościowa bez reklam')]:
+        for file, title, heading in [('index.html','NextPulse Games | Wolf And Eggs 3D, free and ad-free','Wolf And Eggs 3D is built for simple, honest fun'),('pl/index.html','NextPulse Games | Wolf And Eggs 3D, darmowa gra bez reklam','Wolf And Eggs 3D powstaje dla czystej, uczciwej zabawy')]:
             doc = Document(file)
             self.assertIn(title,doc.text)
             self.assertIn(heading,doc.text)
