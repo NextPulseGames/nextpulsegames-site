@@ -1,0 +1,8 @@
+# NextPulse Games - Wolf And Eggs 3D
+Independent one-person game studio focusing on family-friendly, ad-free mobile games built with Godot Engine and Blender.
+
+## Main Project: Wolf And Eggs 3D
+- Platform: Android (Google Play)
+- Business Model: 100% Free, Zero Ads, No Pay-to-Win.
+- Gameplay: 3D arcade egg-catching adventure, local Bluetooth multiplayer, runner stages, built-in mini-games (Checkers, Memory).
+- Support options: BuyCoffee (PLN/BLIK), Ko-fi (Global).
