@@ -69,15 +69,17 @@ Publish through main at the repository root, preserving CNAME and .nojekyll.
 After Pages deployment, repeat GET checks against the public domain; a local
 preview does not prove that production is updated.
 
-MEDIA
------
-assets/brand/NextPulse_Games_baner.jpg is the supplied original (4096x2304).
-The 768/1536/2048px WebP files are responsive derivatives, not a new design.
-assets/screens/4.0-40-20261022 contains 8 newly captured scenes per language,
-full 1920x1080 JPEGs, 960px WebP thumbnails and a provenance manifest.
-The gallery, social images and video preview use these current captures.
-The existing PL/EN YouTube videos are labelled as earlier footage, not as the
-latest local build. Legacy unused media is retained to avoid breaking links.
+MEDIA (12 NOVEMBER 2026)
+-----------------------
+assets/media/2026-11-12 uses the supplied final Google Play promotional set:
+8 localized panels per language, full 2560x1440 JPEGs and responsive WebP
+thumbnails. The feature graphic is used for the video preview and social cards.
+The provenance manifest records source names, dimensions and SHA-256 hashes.
+EN trailer: https://www.youtube.com/watch?v=2kcBKRh4kio
+PL trailer: https://www.youtube.com/watch?v=NbiudBc2cGA
+assets/brand/nextpulse-20261112-* uses the sharp 2172x724 original banner.
+The full-size WebP is lossless. The banner retains its 3:1 proportions and is
+not cropped or stretched on mobile. Legacy media remains for existing links.
 
 HOSTING / SEARCH
 ----------------

@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "asset_set_date": "2026-11-12",
+  "source_root_label": "Wolf And Eggs 3d - PROMO",
+  "source_paths_relative_to": "source_root_label",
+  "output_paths_relative_to": "website repository root",
+  "content_changes": "none; format conversion and proportional responsive resizing only",
+  "rounding": "1024-pixel banner width uses nearest integer height, 341 pixels",
+  "runtime": {
+    "python": "3.12.14",
+    "pillow": "13.0.0",
+    "webp": "1.6.0"
+  },
+  "files": [
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/01_en.png",
+      "source_sha256": "206c5ad3a17484b58493903c116b7b36a9da85065daf8d36f4fa9b32db251a7f",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/01.jpg",
+      "output_sha256": "0be6eff7a7685bb920006436c69a53854a80f0d3fd0da26ad6604fa1d420624e",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 665179,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/01_en.png",
+      "source_sha256": "206c5ad3a17484b58493903c116b7b36a9da85065daf8d36f4fa9b32db251a7f",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/01-960.webp",
+      "output_sha256": "f8d032a5d2cd7fc97778cb47465b4dcb413e779d53a75c59f8a26dce9cf00298",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 73302,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/01_en.png",
+      "source_sha256": "206c5ad3a17484b58493903c116b7b36a9da85065daf8d36f4fa9b32db251a7f",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/01-1600.webp",
+      "output_sha256": "f3a93e9c40432e971ad8c0df286d99ab905bf97977b3a73e3ec86308e86196d1",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 142654,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/02_en.png",
+      "source_sha256": "9087a1c68abec024b62400629e5fa1fbc4150298d996ac32ec81a913b923d4d9",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/02.jpg",
+      "output_sha256": "72dc0ea120df82751663ae218a0f20edb335603b6a34c0b94936e81efe191030",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 711079,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/02_en.png",
+      "source_sha256": "9087a1c68abec024b62400629e5fa1fbc4150298d996ac32ec81a913b923d4d9",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/02-960.webp",
+      "output_sha256": "bb905d57cbacf2ec39ff21811da6210d98e7b5f440bd3fe3fd425f1a3b752fd7",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 83770,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/02_en.png",
+      "source_sha256": "9087a1c68abec024b62400629e5fa1fbc4150298d996ac32ec81a913b923d4d9",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/02-1600.webp",
+      "output_sha256": "6801862093142b913a0cf9e53107318e20415e823eaaae3a9bf1c56bab606a83",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 170164,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/03_en.png",
+      "source_sha256": "9961f9889fef70599cb91fe76f74414ac7a7d184fb717226af403d2bb7bae5ad",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/03.jpg",
+      "output_sha256": "9a8b8889bb308d661a4caf946cb8e3edbae50713ee6ff23aa00aabd4b90a677a",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 776355,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/03_en.png",
+      "source_sha256": "9961f9889fef70599cb91fe76f74414ac7a7d184fb717226af403d2bb7bae5ad",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/03-960.webp",
+      "output_sha256": "30f24d9c0ac871a7030ad95abc20d2822c6b119cb592605c53f6350f4df4d5a8",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 88294,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/03_en.png",
+      "source_sha256": "9961f9889fef70599cb91fe76f74414ac7a7d184fb717226af403d2bb7bae5ad",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/03-1600.webp",
+      "output_sha256": "62fc59ad810a99c7c411f8b3b08f423f19ac4aed0e8d176e9cf8e993d5f24979",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 174832,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/04_en.png",
+      "source_sha256": "1bd9984fe2d53373d633ceb5dd7ba78d28504f8140ac316b6227448695c16745",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/04.jpg",
+      "output_sha256": "f182f12b923d1be7521a2eef50f9f7dc0c2b16b2a7dd2d94b7a10efd92d7f09f",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 1046734,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/04_en.png",
+      "source_sha256": "1bd9984fe2d53373d633ceb5dd7ba78d28504f8140ac316b6227448695c16745",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/04-960.webp",
+      "output_sha256": "57f7e36677e8126dc4200e349811188a31c2e70338937a9148d01f1650639812",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 124184,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/04_en.png",
+      "source_sha256": "1bd9984fe2d53373d633ceb5dd7ba78d28504f8140ac316b6227448695c16745",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/04-1600.webp",
+      "output_sha256": "aafbaf223cc22172cf6a48f9a954120a06adf54428d889221ae5c2ec839a994d",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 261310,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/05_en.png",
+      "source_sha256": "b06ead113f20278b668f8fb9f02b9b0aa222c5150883dfb98766847b000048b7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/05.jpg",
+      "output_sha256": "21ee57fa47521152c26082fdd4beba70a61d69f37bb8a8c3fd0c50d4a79e71d3",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 828554,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/05_en.png",
+      "source_sha256": "b06ead113f20278b668f8fb9f02b9b0aa222c5150883dfb98766847b000048b7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/05-960.webp",
+      "output_sha256": "90e5b8333cfb0994a509c0c7c853ecc766bf6a00233b4c6b4970a3bff11e6e09",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 97218,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/05_en.png",
+      "source_sha256": "b06ead113f20278b668f8fb9f02b9b0aa222c5150883dfb98766847b000048b7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/05-1600.webp",
+      "output_sha256": "52e45d68261a3e317758e5e8f670d01a25c921041dd1eed102242c1e53512143",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 204310,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/06_en.png",
+      "source_sha256": "a0bd8d5ef079d5da28159ded14989216fcf1888c8d1d863ab81d5b436c3f81c7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/06.jpg",
+      "output_sha256": "49a00c4486af9232ae221c52880da945262fb8acd9f52569e7834830b432390a",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 684991,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/06_en.png",
+      "source_sha256": "a0bd8d5ef079d5da28159ded14989216fcf1888c8d1d863ab81d5b436c3f81c7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/06-960.webp",
+      "output_sha256": "2f21aafda8c432ef0e1d682131e3037bd139391c4161af585325d336354fb0c1",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 81226,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/06_en.png",
+      "source_sha256": "a0bd8d5ef079d5da28159ded14989216fcf1888c8d1d863ab81d5b436c3f81c7",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/06-1600.webp",
+      "output_sha256": "6c72612479d10ac8a924e0b0535da20ed7750280a5920e29f0be388b20e6235d",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 160754,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/07_en.png",
+      "source_sha256": "4c9ac4ed9c33724475f2f7b3a116fd2775a867b51f8674d5d95ae7d32347303b",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/07.jpg",
+      "output_sha256": "5714108b739be6625ed16abe7dd583db01129b7cd4d3988458df3ec0bf3b6612",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 729090,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/07_en.png",
+      "source_sha256": "4c9ac4ed9c33724475f2f7b3a116fd2775a867b51f8674d5d95ae7d32347303b",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/07-960.webp",
+      "output_sha256": "1ea2f408a403b22db97c837685dba0481b47fabdfbba6437be1e9a12a5f07913",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 80378,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/07_en.png",
+      "source_sha256": "4c9ac4ed9c33724475f2f7b3a116fd2775a867b51f8674d5d95ae7d32347303b",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/07-1600.webp",
+      "output_sha256": "a0ac3e2627120a3bf4cc5a29e3c51b56a5339ea97ab5856345fd06cccfcc98a3",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 154182,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/08_en.png",
+      "source_sha256": "afe8dfd8d7d0c4410ae84c6a7b55176afc0d1bca3fa9690efd011c283772adff",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/08.jpg",
+      "output_sha256": "412cbaa255e0bbdb1ddd0f1b550903dda0bc41c1b02e81e385469f305333b43d",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 685867,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/08_en.png",
+      "source_sha256": "afe8dfd8d7d0c4410ae84c6a7b55176afc0d1bca3fa9690efd011c283772adff",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/08-960.webp",
+      "output_sha256": "318485835c3c0e5558ec0cec9b4c20b9b5733dc52eaae63e75500b2590616964",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 77678,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/EN/08_en.png",
+      "source_sha256": "afe8dfd8d7d0c4410ae84c6a7b55176afc0d1bca3fa9690efd011c283772adff",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/en/08-1600.webp",
+      "output_sha256": "ddfa85fac8f5a5711137cd87ce3b75f962cad181e5173646c169bd1889d6b7b2",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 157392,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/01_pl.png",
+      "source_sha256": "a5ab959851e11206286ed3b61528d607fdfca43960668f0729b6a6822b6befab",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/01.jpg",
+      "output_sha256": "b58b33a646d2b64dc792fd6823c5cbf12a045787f6565ad340d0aadeac8bde25",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 825851,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/01_pl.png",
+      "source_sha256": "a5ab959851e11206286ed3b61528d607fdfca43960668f0729b6a6822b6befab",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/01-960.webp",
+      "output_sha256": "f413f5cb123465ada1813200d3b1259aa0c62a962338db776843ccefd0d68b90",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 102580,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/01_pl.png",
+      "source_sha256": "a5ab959851e11206286ed3b61528d607fdfca43960668f0729b6a6822b6befab",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/01-1600.webp",
+      "output_sha256": "9becc131c4a57fa51331960ec13bddccd21b1cc0c859b84b243304f954c1dfe3",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 206882,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/02_pl.png",
+      "source_sha256": "8bacbff1181a01e5a0836bf3c17f65a29b7aaf48b981ebcc87752ebaa07f1726",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/02.jpg",
+      "output_sha256": "bb78b934598017a50694f4bc4f0ac4baa3ab2fc5aa85580f730b6ff51d858dc8",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 713137,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/02_pl.png",
+      "source_sha256": "8bacbff1181a01e5a0836bf3c17f65a29b7aaf48b981ebcc87752ebaa07f1726",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/02-960.webp",
+      "output_sha256": "69fce45451a46a733eff9dc6a6b93808d2e15d8cd506a2511f8e012ac9b1bf6c",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 84060,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/02_pl.png",
+      "source_sha256": "8bacbff1181a01e5a0836bf3c17f65a29b7aaf48b981ebcc87752ebaa07f1726",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/02-1600.webp",
+      "output_sha256": "c52b405ead675a96dcf2c1c90d731ab713af84ccd587bf675dd0741f9e586710",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 172726,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/03_pl.png",
+      "source_sha256": "77c4ec4c308cdf811b250e2faf001cf7fa86763db28b1dfb9b7633ae289514b6",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/03.jpg",
+      "output_sha256": "49e56052bd8688288f523c37d7b96262c07a2f2a973f6a3e860a1d0f3295feb2",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 781775,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/03_pl.png",
+      "source_sha256": "77c4ec4c308cdf811b250e2faf001cf7fa86763db28b1dfb9b7633ae289514b6",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/03-960.webp",
+      "output_sha256": "64ffc798115e35612b37a6229a2f93791999b484be978843311a9922a63b5e97",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 89634,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/03_pl.png",
+      "source_sha256": "77c4ec4c308cdf811b250e2faf001cf7fa86763db28b1dfb9b7633ae289514b6",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/03-1600.webp",
+      "output_sha256": "d3b2b12b54efbd411b7630867f17242d5887dd364c27114e8ccdd7c523094048",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 177248,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/04_pl.png",
+      "source_sha256": "52616bcfc9299a95c4b2333d29101576abed099b9e48f1f82d9b8a9e70c9340d",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/04.jpg",
+      "output_sha256": "200ea22f4fdca400626642fd214cd3f07a8cf23d53f4dce30b1d2cdf25d98aa5",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 1062300,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/04_pl.png",
+      "source_sha256": "52616bcfc9299a95c4b2333d29101576abed099b9e48f1f82d9b8a9e70c9340d",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/04-960.webp",
+      "output_sha256": "36212a70c91566889a0f4fa2accf10135effeeb2b8da8d450adf86a3a1b8c622",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 126442,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/04_pl.png",
+      "source_sha256": "52616bcfc9299a95c4b2333d29101576abed099b9e48f1f82d9b8a9e70c9340d",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/04-1600.webp",
+      "output_sha256": "041992cda264d1d8c667625bfc04a5935be08112db5a1f5fcc42c8175a021c2f",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 259204,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/05_pl.png",
+      "source_sha256": "1f611e24a2d6784405af042f0bf4e314a2f1859e0025055dfdf93e948031e6c8",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/05.jpg",
+      "output_sha256": "432c50db62c5a32c092a98bc39ac93b76ad05faaca6f688eb683a01f328c9953",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 821779,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/05_pl.png",
+      "source_sha256": "1f611e24a2d6784405af042f0bf4e314a2f1859e0025055dfdf93e948031e6c8",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/05-960.webp",
+      "output_sha256": "d946cd27b55a2d6437b81e4734c4a855307b3a2bebcfaa3da50a4b3e34355347",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 96284,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/05_pl.png",
+      "source_sha256": "1f611e24a2d6784405af042f0bf4e314a2f1859e0025055dfdf93e948031e6c8",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/05-1600.webp",
+      "output_sha256": "490af95bf767778b7a39959137c9612b59ea9dcb4fb81671e45056ff10faec80",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 202440,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/06_pl.png",
+      "source_sha256": "f20db8787c8889374feae75421e2e1657480620a32faadff0cf294c78918dc95",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/06.jpg",
+      "output_sha256": "939d271f04ada367259dd1b431bbe31ead3324644923dfe48a1077c4ea64f9f3",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 685398,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/06_pl.png",
+      "source_sha256": "f20db8787c8889374feae75421e2e1657480620a32faadff0cf294c78918dc95",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/06-960.webp",
+      "output_sha256": "10b7b3c21bd00a5222afccef664a3aef2fa5fe26fb21988feedcb9ada498d38b",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 80570,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/06_pl.png",
+      "source_sha256": "f20db8787c8889374feae75421e2e1657480620a32faadff0cf294c78918dc95",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/06-1600.webp",
+      "output_sha256": "78d8a8690abf142658729a14d5d5c81db90c13cba84714695f7fb64ae4d52f74",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 164998,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/07_pl.png",
+      "source_sha256": "16ed093236e47af7b9d96b94104bb438e2c855ac23d4aa6ab000e6a47b25c5ef",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/07.jpg",
+      "output_sha256": "2a055a1271b36ef27b1c278de6ff41f1d129af23a54de7249a8217677dc28d7c",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 738372,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/07_pl.png",
+      "source_sha256": "16ed093236e47af7b9d96b94104bb438e2c855ac23d4aa6ab000e6a47b25c5ef",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/07-960.webp",
+      "output_sha256": "21d4b1425de33388a509178036a52c6482afd24983f3079f60848c0ce9bc9b87",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 81192,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/07_pl.png",
+      "source_sha256": "16ed093236e47af7b9d96b94104bb438e2c855ac23d4aa6ab000e6a47b25c5ef",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/07-1600.webp",
+      "output_sha256": "66f8e7ea03a611578e17e250305df2a9e8c2c82528497efb289c1654a997ec22",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 156678,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/08_pl.png",
+      "source_sha256": "00541cf47765bf749b667c659618faf94b056fa1cf2487cf91f4753eb4c408db",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/08.jpg",
+      "output_sha256": "1d63f944cfa68d394787482a7657c76b4e7493dce61bc11160985284900a1024",
+      "output_dimensions": [
+        2560,
+        1440
+      ],
+      "output_bytes": 686068,
+      "operation": "format conversion",
+      "encoding": {
+        "quality": 95,
+        "subsampling": 0,
+        "optimize": true,
+        "progressive": true
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/08_pl.png",
+      "source_sha256": "00541cf47765bf749b667c659618faf94b056fa1cf2487cf91f4753eb4c408db",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/08-960.webp",
+      "output_sha256": "28ec363f4bdbae03914759fe3a40ab8a9d1cc926433a0c75da13018aee4f7727",
+      "output_dimensions": [
+        960,
+        540
+      ],
+      "output_bytes": 77512,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/07_Chromebook_2560x1440/PL/08_pl.png",
+      "source_sha256": "00541cf47765bf749b667c659618faf94b056fa1cf2487cf91f4753eb4c408db",
+      "source_dimensions": [
+        2560,
+        1440
+      ],
+      "output": "assets/media/2026-11-12/pl/08-1600.webp",
+      "output_sha256": "47e7747991bd42b4304fcb5bd79c510190c9cd49fe554e1ddff3771dc340c0a5",
+      "output_dimensions": [
+        1600,
+        900
+      ],
+      "output_bytes": 161428,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/02_Grafika_glowna_1024x500/grafika_glowna_1024x500.png",
+      "source_sha256": "4f5a873fefc0976048016304402c39833d5762547b118c104ce5cd50a8c1d0cf",
+      "source_dimensions": [
+        1024,
+        500
+      ],
+      "output": "assets/media/2026-11-12/feature-1024.png",
+      "output_sha256": "4f5a873fefc0976048016304402c39833d5762547b118c104ce5cd50a8c1d0cf",
+      "output_dimensions": [
+        1024,
+        500
+      ],
+      "output_bytes": 512322,
+      "operation": "unmodified copy",
+      "encoding": {}
+    },
+    {
+      "source": "WolfAndEggs3D_GooglePlay_2026-11-12/02_Grafika_glowna_1024x500/grafika_glowna_1024x500.png",
+      "source_sha256": "4f5a873fefc0976048016304402c39833d5762547b118c104ce5cd50a8c1d0cf",
+      "source_dimensions": [
+        1024,
+        500
+      ],
+      "output": "assets/media/2026-11-12/feature-1024.webp",
+      "output_sha256": "cc82ca22341cfe29241078d5c783c7981ecfdf820ecc613ad51628913f51fd1a",
+      "output_dimensions": [
+        1024,
+        500
+      ],
+      "output_bytes": 371176,
+      "operation": "lossless format conversion",
+      "encoding": {
+        "lossless": true,
+        "method": 6
+      }
+    },
+    {
+      "source": "Wolf And Eggs Promo 16_10/_work/project_capture/NextPulse_Games_banner.png",
+      "source_sha256": "d05e5b52b53e92785b3ddc7da0246f8680ef36d39a67115811d36dfcc108df04",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "output": "assets/brand/nextpulse-20261112-2172.webp",
+      "output_sha256": "7c570d9776d6e9e25419d605fd238d95b4090c708952b840feaf1f019510879b",
+      "output_dimensions": [
+        2172,
+        724
+      ],
+      "output_bytes": 1152522,
+      "operation": "lossless format conversion",
+      "encoding": {
+        "lossless": true,
+        "method": 6
+      }
+    },
+    {
+      "source": "Wolf And Eggs Promo 16_10/_work/project_capture/NextPulse_Games_banner.png",
+      "source_sha256": "d05e5b52b53e92785b3ddc7da0246f8680ef36d39a67115811d36dfcc108df04",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "output": "assets/brand/nextpulse-20261112-1536.webp",
+      "output_sha256": "5b035fc075bfb52698467cd0e79acac3480e08d485d49dbfbff27d83dae8a24d",
+      "output_dimensions": [
+        1536,
+        512
+      ],
+      "output_bytes": 114730,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    },
+    {
+      "source": "Wolf And Eggs Promo 16_10/_work/project_capture/NextPulse_Games_banner.png",
+      "source_sha256": "d05e5b52b53e92785b3ddc7da0246f8680ef36d39a67115811d36dfcc108df04",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "output": "assets/brand/nextpulse-20261112-1024.webp",
+      "output_sha256": "61ad804bbbc02db2c0feff257728e830f87b9d67487b1ae3ebea138db80b66dc",
+      "output_dimensions": [
+        1024,
+        341
+      ],
+      "output_bytes": 68366,
+      "operation": "proportional resize using Lanczos and format conversion",
+      "encoding": {
+        "quality": 95,
+        "method": 6
+      }
+    }
+  ]
+}
